@@ -10,6 +10,11 @@ const App = () => {
     // ]
 
     return (
+        <>
+        <div className='sales-bar-container'>
+            <h2>SPEND $100 FOR FREE SHIPPING</h2>
+            <p>Ground shipping, continental US only</p>
+        </div>
         <div className="address-bar-container">
             <div className="website-title-container">
                 <h1>Blue Letter Boutique</h1>
@@ -36,6 +41,7 @@ const App = () => {
             <div className="my-account-container">MY ACCOUNT</div>
             <div className="shop-icon-container">FAVICON</div>
         </div>
+        </>
     );
 };
 

@@ -1,3 +1,17 @@
+.sales-bar-container {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.sales-bar-container h2 {
+  margin-top: 5px;
+}
+.sales-bar-container p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
 .address-bar-container {
   display: flex;
   justify-content: space-between;

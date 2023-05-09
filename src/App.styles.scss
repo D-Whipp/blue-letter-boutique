@@ -1,3 +1,20 @@
+// ***** SALES BAR *****
+.sales-bar-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+    h2 {
+        margin-top: 5px;
+    }
+    
+    p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+
 // ***** ADDRESS BAR *****
 .address-bar-container {
     // border: 2px solid red;
