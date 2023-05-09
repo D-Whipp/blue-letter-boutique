@@ -1,0 +1,83 @@
+// ***** ADDRESS BAR *****
+.address-bar-container {
+    // border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+    h1 {
+        color: blue;
+        font-family: Gabriola, 'Times New Roman', sans-serif;
+        font-size: 32px;
+        margin-top: 12px;
+        margin-left: 5px;
+    }
+
+    h1:hover {
+        cursor: pointer;
+    }
+
+    .navigation-container ul {
+        // border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        font-weight: bold;
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 450px;
+        padding: 0px;
+
+        li {
+            text-decoration: none;
+        }
+
+        li:last-child {
+            color: blue;
+        }
+
+        li:hover {
+            cursor: pointer;
+        }
+    }
+
+    .search-box-container {
+        // border: 2px solid red;
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+       
+       .search-box {
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        padding: 0px;
+        width: 120px;
+        line-height: 25px;
+        margin-top: 10px;
+        padding: 0px 5px;
+       } 
+    }
+
+    .my-account-container {
+        // border: 2px solid red;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .my-account-container:hover {
+        cursor: pointer;
+    }
+
+    .shop-icon-container {
+        // border: 2px solid red;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-right: 5px;
+    }
+
+    .shop-icon-container:hover {
+        cursor: pointer;
+    }
+}
