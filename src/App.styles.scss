@@ -18,13 +18,11 @@
 
 // ***** ADDRESS BAR *****
 .address-bar-container {
-    // border: 2px solid red;
     display: flex;
     position: absolute;
     justify-content: space-between;
     height: 50px;
     width: 100%;
-    // opacity: 0.5;
 
     h1 {
         color: blue;
@@ -39,7 +37,6 @@
     }
 
     .navigation-container ul {
-        // border: 2px solid red;
         display: flex;
         justify-content: space-between;
         font-size: 10px;
@@ -64,7 +61,6 @@
     }
 
     .search-box-container {
-        // border: 2px solid red;
         font-size: 12px;
         margin: 0px;
         padding: 0px;
@@ -82,7 +78,6 @@
     }
 
     .my-account-container {
-        // border: 2px solid red;
         font-weight: bold;
         margin-top: 15px;
     }
@@ -92,7 +87,6 @@
     }
 
     .shop-icon-container {
-        // border: 2px solid red;
         font-weight: bold;
         margin-top: 15px;
         margin-right: 5px;
@@ -105,12 +99,10 @@
 
 .address-bar-container:hover {
     background-color: white;
-    // opacity: 1;
 }
 
 // ***** JUMBOTRON *****
 .jumbotron-container {
-    // border: 2px solid red;
     background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/city-girls.jpg?updatedAt=1683683648362');
     background-repeat: no-repeat;
     background-position: center;
@@ -123,32 +115,12 @@
     text-align: center;
 
     .jumbotron-text h2 {
-        // border: 2px solid red;
-        // color: blue;
         font-family: Gabriola, sans-serif;
         font-size: 112px;
-        // font-weight: bold;
         padding-top: 20px;
         letter-spacing: 1.5px;
         line-height: 1.4;
-        // margin-top: 20px;
-        // margin: 20px 780px 0px 0px;
         text-align: center;
-        // fill: none;
-        // stroke: black;
-        // stroke-width: 0.5px;
-        // stroke-linejoin: round;
-        // animation: 2s pulsate infinite;
-
-        // @keyframes pulsate {
-        //     50%{stroke-width: 5px;}
-        // }
-        // -webkit-text-fill-color: transparent;
-        // -webkit-text-stroke: 1px;
-        // -webkit-text-stroke-width: 1px;
-        // -webkit-text-stroke-color: black;
-        // text-shadow: #000 0px 0px 1px;
-        // -webkit-font-smoothing: antialiased;
         text-shadow:
             -1px -1px 0 blue,
             0   -1px 0 white,
@@ -158,7 +130,6 @@
             0    1px 0 black,
             -1px  1px 0 black,
             -1px  0   0 black;
-            // font-size: 72px;
         background: -webkit-linear-gradient(55deg, blue, black);
         -webkit-background-clip: text;
         background-clip: text;
@@ -167,7 +138,6 @@
 
     .jumbotron-text p {
         color: blue;
-        // border: 2px solid red;
         font-family: Gabriola, sans-serif;
         font-size: 54px;
         margin-top: 150px;
@@ -175,20 +145,6 @@
         border-bottom: 2px solid blue;
         width: 570px;
         margin: 150px auto 0px;
-        // margin: 295px auto 0px auto;
-        // -webkit-text-fill-color: transparent;
-        // -webkit-text-stroke: 1px;
-        // text-shadow: #000 0px 0px 1px;
-        // -webkit-font-smoothing: antialiased;
-        // text-shadow:
-        //     -1px -1px 0 #000,
-        //     0   -1px 0 #000,
-        //     1px -1px 0 #000,
-        //     1px  0   0 #000,
-        //     1px  1px 0 #000,
-        //     0    1px 0 #000,
-        //     -1px  1px 0 #000,
-        //     -1px  0   0 #000;
             text-shadow:
             -1px -1px 0 blue,
             0   -1px 0 white,
@@ -198,7 +154,6 @@
             0    1px 0 black,
             -1px  1px 0 black,
             -1px  0   0 black;
-            // font-size: 72px;
             background: -webkit-linear-gradient(55deg, blue, black);
             -webkit-background-clip: text;
             background-clip: text;
