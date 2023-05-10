@@ -111,15 +111,20 @@
     background-size: cover;
     height: 500px;
     width: 100%;
-    text-align: right;
+    text-align: center;
 
     .jumbotron-text h2 {
         // border: 2px solid red;
-        color: blue;
-        font-family: Gabriola, 'Times New Roman', sans-serif;
-        font-size: 82px;
-        font-weight: bold;
-        margin: 20px 780px 0px 0px;
+        // color: blue;
+        font-family: Gabriola, sans-serif;
+        font-size: 112px;
+        // font-weight: bold;
+        padding-top: 20px;
+        letter-spacing: 1.5px;
+        line-height: 1.4;
+        // margin-top: 20px;
+        // margin: 20px 780px 0px 0px;
+        text-align: center;
         // fill: none;
         // stroke: black;
         // stroke-width: 0.5px;
@@ -136,35 +141,59 @@
         // text-shadow: #000 0px 0px 1px;
         // -webkit-font-smoothing: antialiased;
         text-shadow:
-            -1px -1px 0 #000,
-            0   -1px 0 #000,
-            1px -1px 0 #000,
-            1px  0   0 #000,
-            1px  1px 0 #000,
-            0    1px 0 #000,
-            -1px  1px 0 #000,
-            -1px  0   0 #000;
+            -1px -1px 0 blue,
+            0   -1px 0 white,
+            1px -1px 0 blue,
+            1px  0   0 black,
+            1px  1px 0 black,
+            0    1px 0 black,
+            -1px  1px 0 black,
+            -1px  0   0 black;
+            // font-size: 72px;
+        background: -webkit-linear-gradient(55deg, blue, black);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .jumbotron-text p {
         color: blue;
         // border: 2px solid red;
-        font-family: Gabriola, 'Times New Roman', sans-serif;
+        font-family: Gabriola, sans-serif;
         font-size: 54px;
-        margin: 300px 25px 0px 0px;
+        margin-top: 150px;
+        letter-spacing: 4px;
+        border-bottom: 2px solid blue;
+        width: 570px;
+        margin: 150px auto 0px;
+        // margin: 295px auto 0px auto;
         // -webkit-text-fill-color: transparent;
         // -webkit-text-stroke: 1px;
         // text-shadow: #000 0px 0px 1px;
         // -webkit-font-smoothing: antialiased;
-        text-shadow:
-            -1px -1px 0 #000,
-            0   -1px 0 #000,
-            1px -1px 0 #000,
-            1px  0   0 #000,
-            1px  1px 0 #000,
-            0    1px 0 #000,
-            -1px  1px 0 #000,
-            -1px  0   0 #000;
+        // text-shadow:
+        //     -1px -1px 0 #000,
+        //     0   -1px 0 #000,
+        //     1px -1px 0 #000,
+        //     1px  0   0 #000,
+        //     1px  1px 0 #000,
+        //     0    1px 0 #000,
+        //     -1px  1px 0 #000,
+        //     -1px  0   0 #000;
+            text-shadow:
+            -1px -1px 0 blue,
+            0   -1px 0 white,
+            1px -1px 0 blue,
+            1px  0   0 black,
+            1px  1px 0 black,
+            0    1px 0 black,
+            -1px  1px 0 black,
+            -1px  0   0 black;
+            // font-size: 72px;
+            background: -webkit-linear-gradient(55deg, blue, black);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
     }
 
     .jumbotron-text p:hover {

@@ -86,22 +86,35 @@
   background-size: cover;
   height: 500px;
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 .jumbotron-container .jumbotron-text h2 {
-  color: blue;
-  font-family: Gabriola, "Times New Roman", sans-serif;
-  font-size: 82px;
-  font-weight: bold;
-  margin: 20px 780px 0px 0px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  font-family: Gabriola, sans-serif;
+  font-size: 112px;
+  padding-top: 20px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  text-align: center;
+  text-shadow: -1px -1px 0 blue, 0 -1px 0 white, 1px -1px 0 blue, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
+  background: -webkit-linear-gradient(55deg, blue, black);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .jumbotron-container .jumbotron-text p {
   color: blue;
-  font-family: Gabriola, "Times New Roman", sans-serif;
+  font-family: Gabriola, sans-serif;
   font-size: 54px;
-  margin: 300px 25px 0px 0px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  margin-top: 150px;
+  letter-spacing: 4px;
+  border-bottom: 2px solid blue;
+  width: 570px;
+  margin: 150px auto 0px;
+  text-shadow: -1px -1px 0 blue, 0 -1px 0 white, 1px -1px 0 blue, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
+  background: -webkit-linear-gradient(55deg, blue, black);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .jumbotron-container .jumbotron-text p:hover {
   cursor: pointer;
