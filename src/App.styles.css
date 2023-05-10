@@ -3,6 +3,7 @@
   color: white;
   text-align: center;
   padding: 5px;
+  margin-bottom: 1px;
 }
 .sales-bar-container h2 {
   margin-top: 5px;
@@ -14,8 +15,10 @@
 
 .address-bar-container {
   display: flex;
+  position: absolute;
   justify-content: space-between;
   height: 50px;
+  width: 100%;
 }
 .address-bar-container h1 {
   color: blue;
@@ -77,6 +80,10 @@
 }
 .address-bar-container .shop-icon-container:hover {
   cursor: pointer;
+}
+
+.address-bar-container:hover {
+  background-color: white;
 }
 
 .jumbotron-container {

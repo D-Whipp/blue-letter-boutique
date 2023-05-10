@@ -4,6 +4,7 @@
     color: white;
     text-align: center;
     padding: 5px;
+    margin-bottom: 1px;
     
     h2 {
         margin-top: 5px;
@@ -19,8 +20,11 @@
 .address-bar-container {
     // border: 2px solid red;
     display: flex;
+    position: absolute;
     justify-content: space-between;
     height: 50px;
+    width: 100%;
+    // opacity: 0.5;
 
     h1 {
         color: blue;
@@ -97,6 +101,11 @@
     .shop-icon-container:hover {
         cursor: pointer;
     }
+}
+
+.address-bar-container:hover {
+    background-color: white;
+    // opacity: 1;
 }
 
 // ***** JUMBOTRON *****

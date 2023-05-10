@@ -43,9 +43,7 @@ const App = () => {
             </div>
             <div className="jumbotron-container">
                 <div className="jumbotron-text">
-                    <h2 className='gradient-text'>
-                        BEAUTY IN STYLE
-                    </h2>
+                    <h2 className="gradient-text">BEAUTY IN STYLE</h2>
                     <p>SHOP THE COLLECTION</p>
                 </div>
             </div>
