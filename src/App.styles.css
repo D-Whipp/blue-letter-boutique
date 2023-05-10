@@ -77,4 +77,32 @@
 }
 .address-bar-container .shop-icon-container:hover {
   cursor: pointer;
+}
+
+.jumbotron-container {
+  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/city-girls.jpg?updatedAt=1683683648362");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  text-align: right;
+}
+.jumbotron-container .jumbotron-text h2 {
+  color: blue;
+  font-family: Gabriola, "Times New Roman", sans-serif;
+  font-size: 82px;
+  font-weight: bold;
+  margin: 20px 780px 0px 0px;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+}
+.jumbotron-container .jumbotron-text p {
+  color: blue;
+  font-family: Gabriola, "Times New Roman", sans-serif;
+  font-size: 54px;
+  margin: 300px 25px 0px 0px;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+}
+.jumbotron-container .jumbotron-text p:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=App.styles.css.map */

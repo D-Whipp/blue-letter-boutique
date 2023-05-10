@@ -98,3 +98,76 @@
         cursor: pointer;
     }
 }
+
+// ***** JUMBOTRON *****
+.jumbotron-container {
+    // border: 2px solid red;
+    background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/city-girls.jpg?updatedAt=1683683648362');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: right;
+
+    .jumbotron-text h2 {
+        // border: 2px solid red;
+        color: blue;
+        font-family: Gabriola, 'Times New Roman', sans-serif;
+        font-size: 82px;
+        font-weight: bold;
+        margin: 20px 780px 0px 0px;
+        // fill: none;
+        // stroke: black;
+        // stroke-width: 0.5px;
+        // stroke-linejoin: round;
+        // animation: 2s pulsate infinite;
+
+        // @keyframes pulsate {
+        //     50%{stroke-width: 5px;}
+        // }
+        // -webkit-text-fill-color: transparent;
+        // -webkit-text-stroke: 1px;
+        // -webkit-text-stroke-width: 1px;
+        // -webkit-text-stroke-color: black;
+        // text-shadow: #000 0px 0px 1px;
+        // -webkit-font-smoothing: antialiased;
+        text-shadow:
+            -1px -1px 0 #000,
+            0   -1px 0 #000,
+            1px -1px 0 #000,
+            1px  0   0 #000,
+            1px  1px 0 #000,
+            0    1px 0 #000,
+            -1px  1px 0 #000,
+            -1px  0   0 #000;
+    }
+
+    .jumbotron-text p {
+        color: blue;
+        // border: 2px solid red;
+        font-family: Gabriola, 'Times New Roman', sans-serif;
+        font-size: 54px;
+        margin: 300px 25px 0px 0px;
+        // -webkit-text-fill-color: transparent;
+        // -webkit-text-stroke: 1px;
+        // text-shadow: #000 0px 0px 1px;
+        // -webkit-font-smoothing: antialiased;
+        text-shadow:
+            -1px -1px 0 #000,
+            0   -1px 0 #000,
+            1px -1px 0 #000,
+            1px  0   0 #000,
+            1px  1px 0 #000,
+            0    1px 0 #000,
+            -1px  1px 0 #000,
+            -1px  0   0 #000;
+    }
+
+    .jumbotron-text p:hover {
+        cursor: pointer;
+    }
+}
