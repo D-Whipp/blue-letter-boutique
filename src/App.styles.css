@@ -125,4 +125,65 @@
 }
 .jumbotron-container .jumbotron-text p:hover {
   cursor: pointer;
+}
+
+.trends-container {
+  text-align: center;
+}
+.trends-container .trends-text {
+  border-bottom: 2px solid blue;
+  color: blue;
+  font-weight: bold;
+  font-family: Gabriola, sans-serif;
+  font-size: 20px;
+  margin: 35px auto 25px auto;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+.trends-container .trends-image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.trends-container .trends-image-container .left-trend-container {
+  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/red-dress.jpg?updatedAt=1683860768652");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin-left: 60px;
+  height: 500px;
+  width: 40%;
+}
+.trends-container .trends-image-container .left-trend-container p {
+  color: blue;
+  font-family: "Segoe Script", Gabriola, sans-serif;
+  font-size: 62px;
+  margin-top: 325px;
+  transform: rotate(-10deg);
+}
+.trends-container .trends-image-container .left-trend-container:hover {
+  cursor: pointer;
+}
+.trends-container .trends-image-container .right-trend-container {
+  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/white-dress.jpg?updatedAt=1683860758177");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin-right: 60px;
+  height: 500px;
+  width: 40%;
+}
+.trends-container .trends-image-container .right-trend-container p {
+  color: blue;
+  font-family: "Segoe Script", Gabriola, sans-serif;
+  font-size: 62px;
+  margin-top: 325px;
+  transform: rotate(10deg);
+}
+.trends-container .trends-image-container .right-trend-container:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=App.styles.css.map */
