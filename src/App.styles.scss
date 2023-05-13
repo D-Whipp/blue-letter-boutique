@@ -243,6 +243,12 @@
 
 // ***** Categories *****
 .categories-container {
+    width: 100%;
+    // align-items: center;
+    // text-align: center;
+    // justify-content: center;
+    // margin: 0 auto;
+
     .categories-text-container {
         border-bottom: 2px solid blue;
         color: blue;
@@ -258,6 +264,12 @@
     .category-items-container {
         display: flex;
         margin-bottom: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        // width: 100%;
+        margin: 25px auto;
+        // padding: 0 auto;
 
         .dresses-categories-container {
             color: blue;
@@ -271,8 +283,102 @@
         border: 2px solid blue;
         border-radius: 5px;
         margin-right: 60px;
-        height: 500px;
-        width: 40%;
+        // margin-left: 25px;
+        height: 200px;
+        width: 15%;
+        cursor: pointer;
         }
+
+        .two-piece-categories-container {
+            color: blue;
+            background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/two-piece/white-and-pink-two-piece.jpg?updatedAt=1683945099275');
+            background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-right: 60px;
+        height: 200px;
+        width: 15%;
+        cursor: pointer;
+
+        }
+
+        .shirts-categories-container {
+            color: blue;
+            background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shirts/blue-shirt.jpg?updatedAt=1683945223429');
+            background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-right: 60px;
+        height: 200px;
+        width: 15%;
+        cursor: pointer;
+    
+    }
+
+        .pants-categories-container {
+            color: blue;
+            background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/pants/torn-pants.jpg?updatedAt=1683945354964');
+            background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-right: 60px;
+        height: 200px;
+        width: 15%;
+        cursor: pointer;
+
+        }
+
+        .hats-categories-container {
+            color: blue;
+            background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/blue-hat.jpg?updatedAt=1683944821595');
+            background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-right: 60px;
+        height: 200px;
+        width: 15%;
+        cursor: pointer;
+
+        }
+
+        .shoes-categories-container {
+            color: blue;
+            background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shoes/boots-two.jpg?updatedAt=1683945452561');
+            background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-right: 60px;
+        height: 200px;
+        width: 15%;
+        cursor: pointer;
+
+        }
+
+        
     }
 }
