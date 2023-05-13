@@ -15,6 +15,7 @@ const App = () => {
                 <h2>SPEND $100 FOR FREE SHIPPING</h2>
                 <p>Ground shipping, continental US only</p>
             </div>
+            
             <div className="address-bar-container">
                 <div className="website-title-container">
                     <h1>Blue Letter Boutique</h1>
@@ -31,6 +32,7 @@ const App = () => {
                         <li>SALE</li>
                     </ul>
                 </div>
+
                 <div className="search-box-container">
                     <input
                         className="search-box"
@@ -41,12 +43,14 @@ const App = () => {
                 <div className="my-account-container">MY ACCOUNT</div>
                 <div className="shop-icon-container">FAVICON</div>
             </div>
+
             <div className="jumbotron-container">
                 <div className="jumbotron-text">
                     <h2 className="gradient-text">BEAUTY IN STYLE</h2>
                     <p>SHOP THE COLLECTION</p>
                 </div>
             </div>
+
             <div className="trends-container">
                 <div className="trends-text">
                     <p>Current Trends</p>
@@ -57,6 +61,32 @@ const App = () => {
                     </div>
                     <div className="right-trend-container">
                         <p>Shop Dresses</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="categories-container">
+                <div className="categories-text-container">
+                    <p>Shop the category</p>
+                </div>
+                <div className="category-items-container">
+                    <div className="dresses-categories-container">
+                        <p>Dresses</p>
+                    </div>
+                    <div className="two-piece-categories-container">
+                        <p>Two Piece</p>
+                    </div>
+                    <div className="shirts-categories-container">
+                        <p>Shirts</p>
+                    </div>
+                    <div className="pants-categories-container">
+                        <p>Pants</p>
+                    </div>
+                    <div className="hats-categories-container">
+                        <p>Hats</p>
+                    </div>
+                    <div className="shoes-categories-container">
+                        <p>Shoes</p>
                     </div>
                 </div>
             </div>

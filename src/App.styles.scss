@@ -240,3 +240,39 @@
      }
     }
 }
+
+// ***** Categories *****
+.categories-container {
+    .categories-text-container {
+        border-bottom: 2px solid blue;
+        color: blue;
+        font-weight: bold;
+        font-family: Gabriola, sans-serif;
+        font-size: 20px;
+        margin: 35px auto 25px auto;
+        text-align: center;
+        padding-bottom: 8px;
+        text-transform: uppercase;
+    }
+
+    .category-items-container {
+        display: flex;
+        margin-bottom: 50px;
+
+        .dresses-categories-container {
+            color: blue;
+            background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/dresses/subdued-green.jpg?updatedAt=1683944493593');
+            background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-right: 60px;
+        height: 500px;
+        width: 40%;
+        }
+    }
+}
