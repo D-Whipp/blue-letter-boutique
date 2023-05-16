@@ -54,6 +54,7 @@
   font-size: 12px;
   margin: 0px;
   padding: 0px;
+  opacity: 0.4;
 }
 .address-bar-container .search-box-container .search-box {
   -moz-appearance: none;
@@ -65,6 +66,9 @@
   line-height: 25px;
   margin-top: 10px;
   padding: 0px 5px;
+}
+.address-bar-container .search-box-container:hover {
+  opacity: 1;
 }
 .address-bar-container .my-account-container {
   font-weight: bold;
@@ -294,6 +298,9 @@
 .links-and-social-media .social-media-symbols p {
   margin: 0 12px;
 }
+.links-and-social-media .social-media-symbols p:hover {
+  cursor: pointer;
+}
 .links-and-social-media .misc-links {
   color: gray;
 }
@@ -306,6 +313,9 @@
   margin: 10px 0;
   font-size: 12px;
 }
+.links-and-social-media .misc-links p:hover {
+  cursor: pointer;
+}
 .links-and-social-media .quick-access {
   color: gray;
 }
@@ -317,6 +327,9 @@
 .links-and-social-media .quick-access p {
   margin: 10px 0;
   font-size: 12px;
+}
+.links-and-social-media .quick-access p:hover {
+  cursor: pointer;
 }
 
 .footer-container {

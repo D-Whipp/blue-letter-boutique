@@ -64,6 +64,7 @@
         font-size: 12px;
         margin: 0px;
         padding: 0px;
+        opacity: 0.4;
        
        .search-box {
         appearance: none;
@@ -75,6 +76,10 @@
         margin-top: 10px;
         padding: 0px 5px;
        } 
+    }
+
+    .search-box-container:hover {
+        opacity: 1;
     }
 
     .my-account-container {
@@ -365,19 +370,20 @@
 // ***** links and social media *****
 .links-and-social-media {
     border-top: 2px solid blue;
-    // background-color: gray;
     display: flex;
     justify-content: space-around;
-    // margin: 0px 150px;
     padding: 25px 0;
     width: 100%;
 
     .social-media-symbols {
         display: flex;
-        // margin: 0 12px;
 
         p {
             margin: 0 12px;
+        }
+
+        p:hover {
+            cursor: pointer;
         }
     }
 
@@ -394,6 +400,10 @@
             margin: 10px 0;
             font-size: 12px;
         }
+
+        p:hover {
+            cursor: pointer;
+        }
     }
 
     .quick-access {
@@ -408,6 +418,10 @@
         p {
             margin: 10px 0;
             font-size: 12px;
+        }
+
+        p:hover {
+            cursor: pointer;
         }
     }
 }
