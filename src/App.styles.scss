@@ -371,6 +371,15 @@
     padding: 25px 0;
     // width: 100%;
 
+    .social-media-symbols {
+        display: flex;
+        // margin: 0 12px;
+
+        p {
+            margin: 0 12px;
+        }
+    }
+
     .misc-links {
         color: gray;
 
