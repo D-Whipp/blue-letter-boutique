@@ -282,10 +282,11 @@
 }
 
 .links-and-social-media {
+  border-top: 2px solid blue;
   display: flex;
-  justify-content: space-between;
-  margin: 0px 150px;
+  justify-content: space-around;
   padding: 25px 0;
+  width: 100%;
 }
 .links-and-social-media .social-media-symbols {
   display: flex;
