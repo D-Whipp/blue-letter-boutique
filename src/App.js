@@ -15,7 +15,7 @@ const App = () => {
                 <h2>SPEND $100 FOR FREE SHIPPING</h2>
                 <p>Ground shipping, continental US only</p>
             </div>
-            
+
             <div className="address-bar-container">
                 <div className="website-title-container">
                     <h1>Blue Letter Boutique</h1>
@@ -89,6 +89,33 @@ const App = () => {
                         <p>Shoes</p>
                     </div>
                 </div>
+            </div>
+
+            <div className="links-and-social-media">
+                <div className="social-media-symbols"></div>
+                <div className="misc-links">
+                    <h3>Help</h3>
+                    <p>Contact Us</p>
+                    <p>FAQ</p>
+                    <p>Shipping</p>
+                    <p>Returns</p>
+                    <p>Our Story</p>
+                </div>
+                <div className="quick-access">
+                    <h3>Quick Links</h3>
+                    <p>My Account</p>
+                    <p>Gift Cards</p>
+                    <p>Terms Of Use</p>
+                    <p>Privacy & Security</p>
+                    <p>Foundations</p>
+                </div>
+            </div>
+
+            <div className="footer-container">
+                <p>
+                    &copy; 2021-2023 Blue Letter Boutique. All Rights
+                    Reserved
+                </p>
             </div>
         </>
     );

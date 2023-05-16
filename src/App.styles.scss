@@ -244,10 +244,6 @@
 // ***** Categories *****
 .categories-container {
     width: 100%;
-    // align-items: center;
-    // text-align: center;
-    // justify-content: center;
-    // margin: 0 auto;
 
     .categories-text-container {
         border-bottom: 2px solid blue;
@@ -363,4 +359,14 @@
             cursor: pointer;
         }
     }
+}
+
+// ***** Footer *****
+.footer-container {
+    background-color: black;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
 }
