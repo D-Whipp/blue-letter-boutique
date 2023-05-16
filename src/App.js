@@ -70,22 +70,22 @@ const App = () => {
                     <p>Shop the category</p>
                 </div>
                 <div className="category-items-container">
-                    <div className="dresses-categories-container">
+                    <div className="category-item dress-image">
                         <p>Dresses</p>
                     </div>
-                    <div className="two-piece-categories-container">
+                    <div className="category-item two-piece-image">
                         <p>Two Piece</p>
                     </div>
-                    <div className="shirts-categories-container">
+                    <div className="category-item shirt-image">
                         <p>Shirts</p>
                     </div>
-                    <div className="pants-categories-container">
+                    <div className="category-item pants-image">
                         <p>Pants</p>
                     </div>
-                    <div className="hats-categories-container">
+                    <div className="category-item hats-image">
                         <p>Hats</p>
                     </div>
-                    <div className="shoes-categories-container">
+                    <div className="category-item shoes-image">
                         <p>Shoes</p>
                     </div>
                 </div>

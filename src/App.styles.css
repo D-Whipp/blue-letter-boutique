@@ -208,13 +208,11 @@
 }
 .categories-container .category-items-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   margin: 25px auto;
 }
-.categories-container .category-items-container .dresses-categories-container {
-  color: blue;
-  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/dresses/subdued-green.jpg?updatedAt=1683944493593");
+.categories-container .category-items-container .category-item {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -224,65 +222,34 @@
   width: 15%;
   cursor: pointer;
 }
-.categories-container .category-items-container .two-piece-categories-container {
+.categories-container .category-items-container .category-item p {
   color: blue;
+  font-family: Gabriola, sans-serif;
+  font-size: 34px;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+  transform: rotate(10deg);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  margin-top: 3px;
+}
+.categories-container .category-items-container .dress-image {
+  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/dresses/orange-dress.jpg?updatedAt=1683944453985");
+}
+.categories-container .category-items-container .two-piece-image {
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/two-piece/white-and-pink-two-piece.jpg?updatedAt=1683945099275");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 2px solid blue;
-  border-radius: 5px;
-  height: 300px;
-  width: 15%;
-  cursor: pointer;
 }
-.categories-container .category-items-container .shirts-categories-container {
-  color: blue;
+.categories-container .category-items-container .shirt-image {
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shirts/blue-shirt.jpg?updatedAt=1683945223429");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 2px solid blue;
-  border-radius: 5px;
-  height: 300px;
-  width: 15%;
-  cursor: pointer;
 }
-.categories-container .category-items-container .pants-categories-container {
-  color: blue;
+.categories-container .category-items-container .pants-image {
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/pants/torn-pants.jpg?updatedAt=1683945354964");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 2px solid blue;
-  border-radius: 5px;
-  height: 300px;
-  width: 15%;
-  cursor: pointer;
 }
-.categories-container .category-items-container .hats-categories-container {
-  color: blue;
-  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/blue-hat.jpg?updatedAt=1683944821595");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 2px solid blue;
-  border-radius: 5px;
-  height: 300px;
-  width: 15%;
-  cursor: pointer;
+.categories-container .category-items-container .hats-image {
+  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/orange-fall-hat.jpg?updatedAt=1683944831199");
 }
-.categories-container .category-items-container .shoes-categories-container {
-  color: blue;
+.categories-container .category-items-container .shoes-image {
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shoes/boots-two.jpg?updatedAt=1683945452561");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 2px solid blue;
-  border-radius: 5px;
-  height: 300px;
-  width: 15%;
-  cursor: pointer;
 }
 
 .links-and-social-media {
