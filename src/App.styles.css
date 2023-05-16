@@ -204,10 +204,8 @@
 }
 .categories-container .category-items-container {
   display: flex;
-  margin-bottom: 50px;
+  justify-content: space-between;
   text-align: center;
-  justify-content: center;
-  align-items: center;
   margin: 25px auto;
 }
 .categories-container .category-items-container .dresses-categories-container {
@@ -218,8 +216,7 @@
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
-  margin-right: 60px;
-  height: 200px;
+  height: 300px;
   width: 15%;
   cursor: pointer;
 }
@@ -231,8 +228,7 @@
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
-  margin-right: 60px;
-  height: 200px;
+  height: 300px;
   width: 15%;
   cursor: pointer;
 }
@@ -244,8 +240,7 @@
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
-  margin-right: 60px;
-  height: 200px;
+  height: 300px;
   width: 15%;
   cursor: pointer;
 }
@@ -257,8 +252,7 @@
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
-  margin-right: 60px;
-  height: 200px;
+  height: 300px;
   width: 15%;
   cursor: pointer;
 }
@@ -270,8 +264,7 @@
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
-  margin-right: 60px;
-  height: 200px;
+  height: 300px;
   width: 15%;
   cursor: pointer;
 }
@@ -283,8 +276,7 @@
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
-  margin-right: 60px;
-  height: 200px;
+  height: 300px;
   width: 15%;
   cursor: pointer;
 }/*# sourceMappingURL=App.styles.css.map */
