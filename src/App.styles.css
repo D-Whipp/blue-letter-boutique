@@ -281,6 +281,37 @@
   cursor: pointer;
 }
 
+.links-and-social-media {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+  padding: 25px 0;
+}
+.links-and-social-media .misc-links {
+  color: gray;
+}
+.links-and-social-media .misc-links h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.links-and-social-media .misc-links p {
+  margin: 10px 0;
+  font-size: 12px;
+}
+.links-and-social-media .quick-access {
+  color: gray;
+}
+.links-and-social-media .quick-access h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.links-and-social-media .quick-access p {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
 .footer-container {
   background-color: black;
   color: white;

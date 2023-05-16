@@ -92,7 +92,12 @@ const App = () => {
             </div>
 
             <div className="links-and-social-media">
-                <div className="social-media-symbols"></div>
+                <div className="social-media-symbols">
+                    <p>Instagram</p>
+                    <p>Facebook</p>
+                    <p>Tiktok</p>
+                    <p>Pinterest</p>
+                </div>
                 <div className="misc-links">
                     <h3>Help</h3>
                     <p>Contact Us</p>
