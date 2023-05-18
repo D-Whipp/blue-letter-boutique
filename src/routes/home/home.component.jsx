@@ -1,5 +1,7 @@
 import './home.styles.css';
 
+import { Outlet } from 'react-router-dom';
+
 const Home = () => {
     // const directories = [
     //     {
@@ -122,6 +124,7 @@ const Home = () => {
                     Reserved
                 </p>
             </div>
+            <Outlet />
         </>
     );
 };
