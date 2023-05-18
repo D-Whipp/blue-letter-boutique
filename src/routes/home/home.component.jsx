@@ -1,6 +1,7 @@
 import './home.styles.css';
 
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
+import Navigation from '../navigation/navigation.component';
 
 const Home = () => {
     // const directories = [
@@ -18,33 +19,7 @@ const Home = () => {
                 <p>Ground shipping, continental US only</p>
             </div>
 
-            <div className="address-bar-container">
-                <div className="website-title-container">
-                    <h1>Blue Letter Boutique</h1>
-                </div>
-                <div className="navigation-container">
-                    <ul>
-                        <li>WHAT'S NEW</li>
-                        <li>DRESSES</li>
-                        <li>SWIM</li>
-                        <li>CLOTHING</li>
-                        <li>JEWELRY</li>
-                        <li>ACCESSORIES</li>
-                        <li>SHOES</li>
-                        <li>SALE</li>
-                    </ul>
-                </div>
-
-                <div className="search-box-container">
-                    <input
-                        className="search-box"
-                        type="search"
-                        placeholder="I'm looking for..."
-                    />
-                </div>
-                <div className="my-account-container">MY ACCOUNT</div>
-                <div className="shop-icon-container">FAVICON</div>
-            </div>
+            <Navigation />
 
             <div className="jumbotron-container">
                 <div className="jumbotron-text">
@@ -119,12 +94,11 @@ const Home = () => {
             </div>
 
             <div className="footer-container">
-                <p>
-                    &copy; 2021-2023 Blue Letter Boutique. All Rights
-                    Reserved
-                </p>
-            </div>
-            <Outlet />
+            <p>
+                &copy; 2021-2023 Blue Letter Boutique. All Rights
+                Reserved
+            </p>
+        </div>
         </>
     );
 };

@@ -1,0 +1,76 @@
+.address-bar-container {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+.address-bar-container h1 {
+  color: blue;
+  font-family: Gabriola, "Times New Roman", sans-serif;
+  font-size: 32px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+.address-bar-container h1:hover {
+  cursor: pointer;
+}
+.address-bar-container .navigation-container ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: bold;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 450px;
+  padding: 0px;
+}
+.address-bar-container .navigation-container ul li {
+  text-decoration: none;
+}
+.address-bar-container .navigation-container ul li:last-child {
+  color: blue;
+}
+.address-bar-container .navigation-container ul li:hover {
+  cursor: pointer;
+}
+.address-bar-container .search-box-container {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.4;
+}
+.address-bar-container .search-box-container .search-box {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  padding: 0px;
+  width: 120px;
+  line-height: 25px;
+  margin-top: 10px;
+  padding: 0px 5px;
+}
+.address-bar-container .search-box-container:hover {
+  opacity: 1;
+}
+.address-bar-container .my-account-container {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.address-bar-container .my-account-container:hover {
+  cursor: pointer;
+}
+.address-bar-container .shop-icon-container {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.address-bar-container .shop-icon-container:hover {
+  cursor: pointer;
+}
+
+.address-bar-container:hover {
+  background-color: white;
+}/*# sourceMappingURL=navigation.styles.css.map */
