@@ -100,53 +100,6 @@
   cursor: pointer;
 }
 
-.links-and-social-media {
-  border-top: 2px solid blue;
-  display: flex;
-  justify-content: space-around;
-  padding: 25px 0px;
-  width: 100%;
-}
-.links-and-social-media .social-media-symbols {
-  display: flex;
-}
-.links-and-social-media .social-media-symbols p {
-  margin: 0px 12px;
-}
-.links-and-social-media .social-media-symbols p:hover {
-  cursor: pointer;
-}
-.links-and-social-media .misc-links {
-  color: gray;
-}
-.links-and-social-media .misc-links h3 {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.links-and-social-media .misc-links p {
-  margin: 10px 0px;
-  font-size: 12px;
-}
-.links-and-social-media .misc-links p:hover {
-  cursor: pointer;
-}
-.links-and-social-media .quick-access {
-  color: gray;
-}
-.links-and-social-media .quick-access h3 {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.links-and-social-media .quick-access p {
-  margin: 10px 0px;
-  font-size: 12px;
-}
-.links-and-social-media .quick-access p:hover {
-  cursor: pointer;
-}
-
 .footer-container {
   background-color: black;
   color: white;
