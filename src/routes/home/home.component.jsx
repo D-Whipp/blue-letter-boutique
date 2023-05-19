@@ -5,7 +5,7 @@ import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
 import Categories from '../categories/categories.component';
 import QuickLinks from '../quick-links/quick-links.component';
-import Footer from '../footer/footer.component';
+import Footer from '../../components/footer/footer.component';
 
 const Home = () => {
     // const directories = [
