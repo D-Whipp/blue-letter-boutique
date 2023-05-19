@@ -5,6 +5,7 @@ import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
 import Categories from '../categories/categories.component';
 import QuickLinks from '../quick-links/quick-links.component';
+import Footer from '../footer/footer.component';
 
 const Home = () => {
     // const directories = [
@@ -46,12 +47,7 @@ const Home = () => {
 
             <QuickLinks />
 
-            <div className="footer-container">
-                <p>
-                    &copy; 2021-2023 Blue Letter Boutique. All Rights
-                    Reserved
-                </p>
-            </div>
+            <Footer />
         </>
     );
 };
