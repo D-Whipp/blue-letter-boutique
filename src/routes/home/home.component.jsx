@@ -1,6 +1,7 @@
 import './home.styles.css';
 
 // import { Outlet } from 'react-router-dom';
+import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
 import Categories from '../categories/categories.component';
 
@@ -15,10 +16,7 @@ const Home = () => {
 
     return (
         <>
-            <div className="sales-bar-container">
-                <h2>SPEND $100 FOR FREE SHIPPING</h2>
-                <p>Ground shipping, continental US only</p>
-            </div>
+            <Promotion />
 
             <Navigation />
 
@@ -71,11 +69,11 @@ const Home = () => {
             </div>
 
             <div className="footer-container">
-            <p>
-                &copy; 2021-2023 Blue Letter Boutique. All Rights
-                Reserved
-            </p>
-        </div>
+                <p>
+                    &copy; 2021-2023 Blue Letter Boutique. All Rights
+                    Reserved
+                </p>
+            </div>
         </>
     );
 };
