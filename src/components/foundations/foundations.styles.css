@@ -1,0 +1,37 @@
+.foundations-container {
+  text-align: center;
+  margin: 100px 0px;
+  width: 100%;
+}
+.foundations-container .foundations-text-container {
+  width: 80%;
+  margin: 0px auto;
+}
+.foundations-container .foundations-text-container h2 {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.foundations-container .foundations-text-container p {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.4;
+}
+.foundations-container .foundations-text-container p span {
+  color: blue;
+}
+.foundations-container .charities-container {
+  margin: 50px auto;
+  text-align: left;
+  width: 80%;
+}
+.foundations-container .charities-container .charity-title {
+  color: blue;
+  font-weight: bold;
+  margin: 35px 0px;
+}
+.foundations-container .charities-container .charity-title a {
+  color: blue;
+  font-style: italic;
+  text-decoration: none;
+}/*# sourceMappingURL=foundations.styles.css.map */
