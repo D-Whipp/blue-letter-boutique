@@ -3,6 +3,7 @@ import './home.styles.css';
 // import { Outlet } from 'react-router-dom';
 import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
+import Jumbotron from '../jumbotron/jumbotron.component';
 import Categories from '../categories/categories.component';
 import QuickLinks from '../quick-links/quick-links.component';
 import Footer from '../../components/footer/footer.component';
@@ -22,12 +23,7 @@ const Home = () => {
 
             <Navigation />
 
-            <div className="jumbotron-container">
-                <div className="jumbotron-text">
-                    <h2 className="gradient-text">BEAUTY IN STYLE</h2>
-                    <p>SHOP THE COLLECTION</p>
-                </div>
-            </div>
+            <Jumbotron />
 
             <div className="trends-container">
                 <div className="trends-text">

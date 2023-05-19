@@ -1,0 +1,63 @@
+// ***** JUMBOTRON *****
+.jumbotron-container {
+    background-image: url('https://ik.imagekit.io/dwimageKit/blue-letter-boutique/city-girls.jpg?updatedAt=1683683648362');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+
+    .jumbotron-text h2 {
+        font-family: Gabriola, sans-serif;
+        font-size: 112px;
+        padding-top: 20px;
+        letter-spacing: 1.5px;
+        line-height: 1.4;
+        text-align: center;
+        text-shadow:
+            -1px -1px 0px blue,
+            0px -1px 0px white,
+            1px -1px 0px blue,
+            1px 0px 0px black,
+            1px 1px 0px black,
+            0px 1px 0px black,
+            -1px 1px 0px black,
+            -1px 0px 0px black;
+        background: -webkit-linear-gradient(55deg, blue, black);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .jumbotron-text p {
+        color: blue;
+        font-family: Gabriola, sans-serif;
+        font-size: 54px;
+        margin-top: 150px;
+        letter-spacing: 4px;
+        border-bottom: 2px solid blue;
+        width: 570px;
+        margin: 150px auto 0px;
+            text-shadow:
+            -1px -1px 0 blue,
+            0   -1px 0 white,
+            1px -1px 0 blue,
+            1px  0   0 black,
+            1px  1px 0 black,
+            0    1px 0 black,
+            -1px  1px 0 black,
+            -1px  0   0 black;
+            background: -webkit-linear-gradient(55deg, blue, black);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+
+    .jumbotron-text p:hover {
+        cursor: pointer;
+    }
+}

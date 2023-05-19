@@ -98,13 +98,4 @@
 }
 .trends-container .trends-image-container .right-trend-container:hover {
   cursor: pointer;
-}
-
-.footer-container {
-  background-color: black;
-  color: white;
-  height: 25px;
-  padding-top: 5px;
-  text-align: center;
-  width: 100%;
 }/*# sourceMappingURL=home.styles.css.map */
