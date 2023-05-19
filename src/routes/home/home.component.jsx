@@ -4,6 +4,7 @@ import './home.styles.css';
 import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
 import Jumbotron from '../jumbotron/jumbotron.component';
+import CurrentTrends from '../current-trends/current-trends.component';
 import Categories from '../categories/categories.component';
 import QuickLinks from '../quick-links/quick-links.component';
 import Footer from '../../components/footer/footer.component';
@@ -20,29 +21,11 @@ const Home = () => {
     return (
         <>
             <Promotion />
-
             <Navigation />
-
             <Jumbotron />
-
-            <div className="trends-container">
-                <div className="trends-text">
-                    <p>Current Trends</p>
-                </div>
-                <div className="trends-image-container">
-                    <div className="left-trend-container">
-                        <p>Shop Two Piece</p>
-                    </div>
-                    <div className="right-trend-container">
-                        <p>Shop Dresses</p>
-                    </div>
-                </div>
-            </div>
-
+            <CurrentTrends />
             <Categories />
-
             <QuickLinks />
-
             <Footer />
         </>
     );
