@@ -1,0 +1,22 @@
+.terms-of-use-container {
+  text-align: center;
+  margin: 100px 0px;
+  width: 100%;
+}
+.terms-of-use-container .terms-of-use-text-container {
+  width: 80%;
+  margin: 0px auto;
+}
+.terms-of-use-container .terms-of-use-text-container h2 {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.terms-of-use-container .terms-of-use-text-container p {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.4;
+}
+.terms-of-use-container .terms-of-use-text-container p span {
+  color: blue;
+}/*# sourceMappingURL=terms-of-use.styles.css.map */

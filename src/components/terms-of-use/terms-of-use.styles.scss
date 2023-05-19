@@ -1,0 +1,28 @@
+.terms-of-use-container {
+    // color: blue;
+    text-align: center;
+    margin: 100px 0px;
+    width: 100%;
+    
+    .terms-of-use-text-container {
+        width: 80%;
+        margin: 0px auto;
+        
+        h2 {
+            color: blue;
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 14px;
+            font-style: italic;
+            line-height: 1.4;
+
+            span {
+                color: blue;
+            }
+        }
+    }
+
+}
