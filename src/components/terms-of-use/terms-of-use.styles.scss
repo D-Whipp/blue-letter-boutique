@@ -1,7 +1,9 @@
 .terms-of-use-container {
     // color: blue;
+    border-top: 2px solid blue;
     text-align: center;
-    margin: 100px 0px;
+    margin-top: 60px;
+    padding: 50px 0px;
     width: 100%;
     
     .terms-of-use-text-container {
@@ -11,16 +13,27 @@
         h2 {
             color: blue;
             font-size: 24px;
-            margin-bottom: 25px;
+            margin-bottom: 35px;
         }
 
-        p {
-            font-size: 14px;
-            font-style: italic;
-            line-height: 1.4;
-
-            span {
+        .text-section-container {
+            text-align: left;
+        
+            h3 {
                 color: blue;
+                font-style: italic;
+                margin: 20px 0;
+                text-transform: capitalize;
+            }
+
+            p {
+                // color: blue;
+                font-size: 14px;
+                line-height: 1.7;
+                
+                span {
+                    color: blue;
+                }
             }
         }
     }
