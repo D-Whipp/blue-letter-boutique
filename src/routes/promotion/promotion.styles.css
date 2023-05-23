@@ -1,14 +1,17 @@
 .sales-bar-container {
   background-color: black;
   color: white;
+  height: 47px;
   text-align: center;
   padding: 5px;
   margin-bottom: 1px;
 }
 .sales-bar-container h2 {
-  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px 0px 0px 0px;
 }
 .sales-bar-container p {
   font-size: 12px;
-  margin-top: 5px;
+  margin: 5px 0px 0px 0px;
 }/*# sourceMappingURL=promotion.styles.css.map */

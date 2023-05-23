@@ -1,12 +1,17 @@
+.address-bar-container h1 {
+  color: blue;
+  font-family: Gabriola, "Times New Roman", sans-serif;
+  font-size: 32px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
 .returns-container {
   border-top: 2px solid blue;
   text-align: center;
   margin-top: 60px;
   padding: 50px 0px;
   width: 100%;
-}
-.returns-container h2 {
-  color: blue;
 }
 .returns-container .returns-text-container {
   margin: 50px auto;
