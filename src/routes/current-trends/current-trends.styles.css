@@ -17,7 +17,7 @@
   margin-bottom: 15px;
 }
 .trends-container .trends-image-container .left-trend-container {
-  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/red-dress.jpg?updatedAt=1683860768652");
+  background-image: url("../../assets/two-piece/white-two-piece-short.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 .trends-container .trends-image-container .right-trend-container {
-  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/white-dress.jpg?updatedAt=1683860758177");
+  background-image: url("../../assets/dresses/purple-flowers-black-dress.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
