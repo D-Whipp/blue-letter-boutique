@@ -52,10 +52,10 @@
             0    1px 0 black,
             -1px  1px 0 black,
             -1px  0   0 black;
-            background: -webkit-linear-gradient(55deg, blue, black);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(55deg, blue, black);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .jumbotron-text p:hover {
