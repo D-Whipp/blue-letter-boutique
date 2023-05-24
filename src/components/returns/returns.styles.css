@@ -13,6 +13,11 @@
 .returns-container .returns-text-container h3 {
   color: blue;
   font-style: italic;
+  font-size: 24px;
+  margin: 30px 0px;
+}
+.returns-container .returns-text-container p {
+  line-height: 1.4;
 }
 .returns-container .returns-text-container span {
   font-weight: bold;

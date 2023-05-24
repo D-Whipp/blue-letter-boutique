@@ -20,6 +20,7 @@
   text-transform: uppercase;
 }
 .our-story-container .our-story-text-container p {
+  line-height: 1.4;
   margin: 20px;
 }
 .our-story-container .our-story-text-container .our-story-signature {
