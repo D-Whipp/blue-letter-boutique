@@ -9,7 +9,8 @@
   color: blue;
   font-family: Gabriola, "Times New Roman", sans-serif;
   font-size: 32px;
-  margin-top: 12px;
+  font-weight: lighter;
+  margin-top: 10px;
   margin-left: 5px;
 }
 .address-bar-container h1:hover {

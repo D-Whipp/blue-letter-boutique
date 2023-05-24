@@ -1,26 +1,31 @@
 .our-story-container {
   border-top: 2px solid blue;
   text-align: center;
-  margin: 75px 100px;
+  margin: 60px 0px;
+  width: 100%;
 }
-.our-story-container h2 {
+.our-story-container .our-story-text-container {
+  margin: 0 auto;
+  width: 80%;
+}
+.our-story-container .our-story-text-container h2 {
   margin-top: 50px;
   text-transform: uppercase;
 }
-.our-story-container h3 {
+.our-story-container .our-story-text-container h3 {
   color: blue;
   font-family: Gabriola, sans-serif;
   font-size: 44px;
   margin: 50px auto;
   text-transform: uppercase;
 }
-.our-story-container p {
+.our-story-container .our-story-text-container p {
   margin: 20px;
 }
-.our-story-container .our-story-signature {
+.our-story-container .our-story-text-container .our-story-signature {
   color: blue;
 }
-.our-story-container .signature-image {
+.our-story-container .our-story-text-container .signature-image {
   background-image: url("../../assets/our-story-signature/nicole.jpg");
   background-repeat: no-repeat;
   background-position: center;

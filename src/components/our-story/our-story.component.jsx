@@ -13,6 +13,7 @@ const OurStory = () => {
             <Promotion />
             <Navigation />
             <div className="our-story-container">
+            <div className='our-story-text-container'>
                 <h2>our story</h2>
                 <h3>"We sell beauty"</h3>
                 <p>
@@ -96,6 +97,7 @@ const OurStory = () => {
                 <p className="our-story-signature">XOXO,</p>
                 <p className="our-story-signature">Nicole</p>
                 <div className='signature-image'></div>
+                </div>
                 </div>
             <QuickLinks />
             <Footer />
