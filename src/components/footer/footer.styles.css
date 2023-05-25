@@ -2,7 +2,9 @@
   background-color: black;
   color: white;
   height: 25px;
-  padding-top: 5px;
   text-align: center;
   width: 100%;
+}
+.footer-container p {
+  padding-top: 4px;
 }/*# sourceMappingURL=footer.styles.css.map */
