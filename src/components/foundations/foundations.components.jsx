@@ -17,7 +17,7 @@ const Foundations = () => {
                         We at <span>Blue Letter Boutique</span> love
                         fashion and we've experienced tremendous
                         success within this industry. With this
-                        success comes a powerfull desire to give back
+                        success comes a powerful desire to give back
                         to our communities; to show how grateful we
                         are. While we give most of our donations
                         privately we feel compelled to publicly
