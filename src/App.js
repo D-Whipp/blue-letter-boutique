@@ -6,6 +6,7 @@ import Foundations from './components/foundations/foundations.components';
 import TermsOfUse from './components/terms-of-use/terms-of-use.component';
 import Returns from './components/returns/returns.components';
 import './App.styles.css';
+import Shipping from './components/shipping/shipping.component';
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                 element={<TermsOfUse />}
             />
             <Route path="/pages/returns" element={<Returns />} />
+            <Route path="/pages/shipping" element={<Shipping />} />
         </Routes>
     );
 };
