@@ -21,6 +21,7 @@
   color: blue;
   font-weight: bold;
   margin: 20px 0px;
+  text-transform: uppercase;
 }
 .shipping-container .shipping-text-container p {
   font-size: 14px;
