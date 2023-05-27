@@ -1,0 +1,73 @@
+.faq-container {
+    border-top: 2px solid blue;
+    margin-top: 51px;
+    padding-top: 45px;
+    text-align: center;
+    width: 100%;
+    
+    h2 {
+        color: blue;
+        font-family: Gabriola, sans-serif;
+        font-size: 40px;
+        letter-spacing: 1.4px;
+        text-transform: capitalize;
+    }
+
+    .faq-text-container {
+        font-size: 16px;
+        margin: 0px auto;
+        padding: 5px 0px;
+        text-align: left;
+        width: 80%;
+
+        details > summary {
+            list-style: none;
+        }
+
+        details {
+            color: blue;
+            // height: 40px;
+            margin: 40px 0px;
+
+            .root-details-container {
+                background: black;
+                color: white;
+                height: 45px;
+                padding: 12px 12px;
+            }
+
+            .level-one-details-container {
+                color: black;
+                font-size: 20px;
+                // margin-top: 15px;
+                // padding-top: 15px;
+
+                h3 {
+                    color: blue;
+                    font-size: 16px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                }
+
+                
+                h4 {
+                    margin: 15px 0px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 1.4;
+                    padding-top: 15px;
+                }
+
+                .important-notice {
+                    color: blue;
+                }
+
+                // .shipping-method-topic {
+                //     margin: 15px 0px;
+                // }
+            }
+        }
+    }
+}

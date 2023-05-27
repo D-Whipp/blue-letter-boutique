@@ -7,6 +7,7 @@ import TermsOfUse from './components/terms-of-use/terms-of-use.component';
 import Returns from './components/returns/returns.components';
 import './App.styles.css';
 import Shipping from './components/shipping/shipping.component';
+import FAQ from './components/faq/faq.component';
 
 const App = () => {
     return (
@@ -23,6 +24,7 @@ const App = () => {
             />
             <Route path="/pages/returns" element={<Returns />} />
             <Route path="/pages/shipping" element={<Shipping />} />
+            <Route path='/pages/faq' element={<FAQ />} />
         </Routes>
     );
 };
