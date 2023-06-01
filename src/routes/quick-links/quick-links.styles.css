@@ -22,9 +22,12 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-.links-and-social-media .misc-links p {
+.links-and-social-media .misc-links .quick-access-link {
+  color: gray;
+  display: block;
   margin: 10px 0px;
   font-size: 12px;
+  text-decoration: none;
 }
 .links-and-social-media .misc-links p:hover {
   cursor: pointer;
@@ -37,10 +40,13 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-.links-and-social-media .quick-access p {
+.links-and-social-media .quick-access .quick-access-link {
+  color: gray;
+  display: block;
   margin: 10px 0px;
   font-size: 12px;
+  text-decoration: none;
 }
-.links-and-social-media .quick-access p:hover {
+.links-and-social-media .quick-access .quick-access-link:hover {
   cursor: pointer;
 }/*# sourceMappingURL=quick-links.styles.css.map */

@@ -27,9 +27,12 @@
             margin-bottom: 20px;
         }
 
-        p {
+        .quick-access-link {
+            color: gray;
+            display: block;
             margin: 10px 0px;
             font-size: 12px;
+            text-decoration: none;
         }
 
         p:hover {
@@ -46,12 +49,15 @@
             margin-bottom: 20px;
         }
     
-        p {
+        .quick-access-link {
+            color: gray;
+            display: block;
             margin: 10px 0px;
             font-size: 12px;
+            text-decoration: none;
         }
 
-        p:hover {
+        .quick-access-link:hover {
             cursor: pointer;
         }
     }

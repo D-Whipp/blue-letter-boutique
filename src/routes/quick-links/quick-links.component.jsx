@@ -14,24 +14,60 @@ const QuickLinks = () => {
             <div className="misc-links">
                 <h3>Help</h3>
                 <p>Contact Us</p>
-                <p>
-                    <Link to="/pages/faq">FAQ</Link>
-                </p>
-                <p>
-                    <Link to="/pages/shipping">Shipping</Link>
-                </p>
-                <p>
-                    <Link to="/pages/returns">Returns</Link>
-                </p>
-                <p>Our Story</p>
+                <Link className="quick-access-link" to="/pages/faq">
+                    FAQ
+                </Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/shipping"
+                >
+                    Shipping
+                </Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/returns"
+                >
+                    Returns
+                </Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/our-story"
+                >
+                    Our Story
+                </Link>
             </div>
             <div className="quick-access">
                 <h3>Quick Links</h3>
-                <Link to="/my-account">My Account</Link>
-                <p>Gift Cards</p>
-                <p>Terms Of Use</p>
-                <p>Privacy & Security</p>
-                <p>Foundations</p>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/my-account"
+                >
+                    My Account
+                </Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/gift-cards"
+                >
+                    Gift Cards
+                </Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/terms-of-use"
+                >
+                    Terms Of Use
+                </Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/privacy-and-security"
+                >
+                    Privacy & Security
+                </Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/foundations"
+                >
+                    Foundations
+                </Link>
             </div>
         </div>
     );
