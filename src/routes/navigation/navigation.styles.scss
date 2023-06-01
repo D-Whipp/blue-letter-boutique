@@ -6,19 +6,28 @@
     height: 50px;
     width: 100%;
 
-    h1 {
-        color: blue;
-        // background-color: white;
-        font-family: Gabriola, 'Times New Roman', sans-serif;
-        font-size: 32px;
-        font-weight: lighter;
-        margin-top: 8px;
-        margin-left: 5px;
-    }
+    .website-title-container {
 
+        
+        h1 {
+            
+            Link {
+                color: red;
+                // background-color: white;
+                font-family: Gabriola, 'Times New Roman', sans-serif;
+                font-size: 32px;
+                font-weight: lighter;
+                margin-top: 8px;
+                margin-left: 5px;
+                text-decoration: none;
+                // list-style-type: none;
+        }
+    }
+    
     h1:hover {
         cursor: pointer;
     }
+}
 
     .navigation-container ul {
         display: flex;

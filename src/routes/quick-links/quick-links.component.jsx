@@ -1,5 +1,7 @@
 import './quick-links.styles.css';
 
+import { Link } from 'react-router-dom';
+
 const QuickLinks = () => {
     return (
         <div className="links-and-social-media">
@@ -12,14 +14,20 @@ const QuickLinks = () => {
             <div className="misc-links">
                 <h3>Help</h3>
                 <p>Contact Us</p>
-                <p>FAQ</p>
-                <p>Shipping</p>
-                <p>Returns</p>
+                <p>
+                    <Link to="/pages/faq">FAQ</Link>
+                </p>
+                <p>
+                    <Link to="/pages/shipping">Shipping</Link>
+                </p>
+                <p>
+                    <Link to="/pages/returns">Returns</Link>
+                </p>
                 <p>Our Story</p>
             </div>
             <div className="quick-access">
                 <h3>Quick Links</h3>
-                <p>My Account</p>
+                <Link to="/my-account">My Account</Link>
                 <p>Gift Cards</p>
                 <p>Terms Of Use</p>
                 <p>Privacy & Security</p>

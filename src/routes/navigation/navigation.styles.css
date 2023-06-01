@@ -5,15 +5,16 @@
   height: 50px;
   width: 100%;
 }
-.address-bar-container h1 {
-  color: blue;
+.address-bar-container .website-title-container h1 Link {
+  color: red;
   font-family: Gabriola, "Times New Roman", sans-serif;
   font-size: 32px;
   font-weight: lighter;
   margin-top: 8px;
   margin-left: 5px;
+  text-decoration: none;
 }
-.address-bar-container h1:hover {
+.address-bar-container .website-title-container h1:hover {
   cursor: pointer;
 }
 .address-bar-container .navigation-container ul {

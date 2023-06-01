@@ -1,10 +1,16 @@
 import './navigation.styles.css';
 
+import { Link } from 'react-router-dom';
+
 const Navigation = () => {
     return (
         <div className="address-bar-container">
             <div className="website-title-container">
-                <h1>Blue Letter Boutique</h1>
+                <h1>
+                    <Link style={{ textDecoration: 'none' }} to="/">
+                        Blue Letter Boutique
+                    </Link>
+                </h1>
             </div>
             <div className="navigation-container">
                 <ul>
