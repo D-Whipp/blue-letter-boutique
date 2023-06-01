@@ -11,14 +11,16 @@
         
         h1 {
             
-            Link {
-                color: red;
+            margin-top: 8px;
+            margin-left: 5px;
+            .nav-link {
+                color: blue;
                 // background-color: white;
                 font-family: Gabriola, 'Times New Roman', sans-serif;
                 font-size: 32px;
                 font-weight: lighter;
-                margin-top: 8px;
-                margin-left: 5px;
+                // margin-bottom: -18px;
+                // padding-top: 300px;
                 text-decoration: none;
                 // list-style-type: none;
         }

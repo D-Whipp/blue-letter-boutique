@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="address-bar-container">
             <div className="website-title-container">
                 <h1>
-                    <Link style={{ textDecoration: 'none' }} to="/">
+                    <Link className='nav-link' to="/">
                         Blue Letter Boutique
                     </Link>
                 </h1>
