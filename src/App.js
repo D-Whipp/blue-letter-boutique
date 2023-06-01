@@ -8,6 +8,7 @@ import Returns from './components/returns/returns.components';
 import './App.styles.css';
 import Shipping from './components/shipping/shipping.component';
 import FAQ from './components/faq/faq.component';
+import PrivacyAndSecurity from './components/privacy-and-security/privacy-and-security.component';
 
 const App = () => {
     return (
@@ -24,7 +25,11 @@ const App = () => {
             />
             <Route path="/pages/returns" element={<Returns />} />
             <Route path="/pages/shipping" element={<Shipping />} />
-            <Route path='/pages/faq' element={<FAQ />} />
+            <Route path="/pages/faq" element={<FAQ />} />
+            <Route
+                path="/pages/privacy-and-security"
+                element={<PrivacyAndSecurity />}
+            />
         </Routes>
     );
 };
