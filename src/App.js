@@ -11,6 +11,7 @@ import Shipping from './components/shipping/shipping.component';
 import FAQ from './components/faq/faq.component';
 import PrivacyAndSecurity from './components/privacy-and-security/privacy-and-security.component';
 import ContactUs from './components/contact-us/contact-us.component';
+import GiftCards from './components/gift-cards/gift-cards.component';
 
 const App = () => {
     useEffect(() => {
@@ -43,6 +44,7 @@ const App = () => {
                 element={<PrivacyAndSecurity />}
             />
             <Route path="/pages/contact-us" element={<ContactUs />} />
+            <Route path='/pages/gift-cards' element={<GiftCards />} />
         </Routes>
     );
 };

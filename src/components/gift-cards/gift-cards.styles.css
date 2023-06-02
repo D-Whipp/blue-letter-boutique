@@ -1,0 +1,50 @@
+.gift-card-container {
+  justify-content: center;
+  border-top: 2px solid blue;
+  height: 405px;
+  margin-top: 55px;
+  width: 100%;
+}
+.gift-card-container .gift-card {
+  background-color: rosybrown;
+  border: 2px solid royalblue;
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 3px 3px 3px;
+  margin: 50px auto;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+}
+.gift-card-container .gift-card .gift-card-logo {
+  background-color: cyan;
+  border-bottom: 2px solid royalblue;
+  border-radius: 0px 15px 0px 0px;
+  color: blue;
+  font-family: "Gabriola", Courier, monospace;
+  font-weight: 200;
+  font-size: 100px;
+  font-style: italic;
+  letter-spacing: 7px;
+  margin: 0px auto 0px auto;
+  padding-top: 30px;
+  height: 200px;
+  width: 100%;
+}
+.gift-card-container .gift-card .gift-card-heading {
+  color: white;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.gift-card-container .gift-card .gift-card-text {
+  color: white;
+  line-height: 1.4;
+  letter-spacing: 1.4px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.gift-card-container .gift-card:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=gift-cards.styles.css.map */
