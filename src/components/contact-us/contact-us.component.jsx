@@ -48,7 +48,7 @@ const ContactUs = () => {
                         you first thing the next business day!
                     </p>
                     <p>Website Customer Service Hours:</p>
-                    <p>Monday-Friday 9am - 5pm MT</p>
+                    <p>Monday-Friday 9AM - 5PM MT</p>
                     <p>555-555-5555</p>
                     <p>orders@blueletterboutique.com</p>
                 </div>
