@@ -13,7 +13,12 @@ const QuickLinks = () => {
             </div>
             <div className="misc-links">
                 <h3>Help</h3>
-                <Link className="quick-access-link">Contact Us</Link>
+                <Link
+                    className="quick-access-link"
+                    to="/pages/contact-us"
+                >
+                    Contact Us
+                </Link>
                 <Link className="quick-access-link" to="/pages/faq">
                     FAQ
                 </Link>

@@ -1,0 +1,27 @@
+.contact-us-container {
+  border-top: 2px solid blue;
+  text-align: center;
+  margin: 60px 0px;
+  width: 100%;
+}
+.contact-us-container .contact-us-text-container {
+  margin: 0 auto;
+  width: 80%;
+}
+.contact-us-container .contact-us-text-container h2 {
+  color: blue;
+  font-size: 24px;
+  margin: 40px 0px 30px 0px;
+  text-transform: uppercase;
+}
+.contact-us-container .contact-us-text-container p {
+  line-height: 1.4;
+  margin: 20px;
+}
+.contact-us-container .contact-us-form-container {
+  margin: 0 auto;
+  width: 80%;
+}
+.contact-us-container .contact-us-form-container div {
+  margin: 25px 0px;
+}/*# sourceMappingURL=contact-us.component.css.map */

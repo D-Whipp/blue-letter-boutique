@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 
 import Home from './routes/home/home.component';
 import OurStory from './components/our-story/our-story.component';
@@ -9,8 +10,19 @@ import './App.styles.css';
 import Shipping from './components/shipping/shipping.component';
 import FAQ from './components/faq/faq.component';
 import PrivacyAndSecurity from './components/privacy-and-security/privacy-and-security.component';
+import ContactUs from './components/contact-us/contact-us.component';
 
 const App = () => {
+    useEffect(() => {
+        if (document) {
+          const stylesheet = document.createElement("link");
+          stylesheet.rel = "stylesheet";
+          stylesheet.href = "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css";
+    
+          document.head.appendChild(stylesheet);
+        }
+      }, []);
+
     return (
         <Routes>
             <Route index element={<Home />} />
@@ -30,6 +42,7 @@ const App = () => {
                 path="/pages/privacy-and-security"
                 element={<PrivacyAndSecurity />}
             />
+            <Route path="/pages/contact-us" element={<ContactUs />} />
         </Routes>
     );
 };
