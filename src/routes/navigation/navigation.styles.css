@@ -6,6 +6,7 @@
   width: 100%;
 }
 .address-bar-container .website-title-container h1 {
+  font-style: oblique;
   margin-top: 3px;
   margin-left: 5px;
 }
@@ -63,6 +64,7 @@
   border-top: none;
   color: black;
   font-size: 14px;
+  font-style: italic;
   font-weight: bold;
   margin: 16px 0px 0px 0px;
   padding: 0px;
@@ -72,6 +74,7 @@
 }
 .address-bar-container .shop-icon-container {
   font-size: 14px;
+  font-style: italic;
   font-weight: bold;
   margin-top: 15px;
   margin-right: 5px;
