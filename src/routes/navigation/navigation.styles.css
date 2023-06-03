@@ -60,13 +60,18 @@
   opacity: 1;
 }
 .address-bar-container .my-account-container {
+  border-top: none;
+  color: black;
+  font-size: 14px;
   font-weight: bold;
-  margin-top: 15px;
+  margin: 16px 0px 0px 0px;
+  padding: 0px;
 }
 .address-bar-container .my-account-container:hover {
   cursor: pointer;
 }
 .address-bar-container .shop-icon-container {
+  font-size: 14px;
   font-weight: bold;
   margin-top: 15px;
   margin-right: 5px;

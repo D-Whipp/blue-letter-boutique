@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className="address-bar-container">
             <div className="website-title-container">
                 <h1>
-                    <Link className='nav-link' to="/">
+                    <Link className="nav-link" to="/">
                         Blue Letter Boutique
                     </Link>
                 </h1>
@@ -33,7 +33,7 @@ const Navigation = () => {
                 />
             </div>
             <div className="my-account-container">MY ACCOUNT</div>
-            <div className="shop-icon-container">FAVICON</div>
+            <div className="shop-icon-container">SHOPICON</div>
         </div>
     );
 };

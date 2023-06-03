@@ -78,8 +78,13 @@
     }
 
     .my-account-container {
+        // border: 2px solid red;
+        border-top: none;
+        color: black;
+        font-size: 14px;
         font-weight: bold;
-        margin-top: 15px;
+        margin: 16px 0px 0px 0px;
+        padding: 0px;
     }
 
     .my-account-container:hover {
@@ -87,6 +92,7 @@
     }
 
     .shop-icon-container {
+        font-size: 14px;
         font-weight: bold;
         margin-top: 15px;
         margin-right: 5px;
