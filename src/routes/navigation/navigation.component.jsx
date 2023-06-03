@@ -32,7 +32,12 @@ const Navigation = () => {
                     placeholder="I'm looking for..."
                 />
             </div>
-            <div className="my-account-container">MY ACCOUNT</div>
+            <Link
+                className="my-account-container"
+                to="/pages/my-account"
+            >
+                MY ACCOUNT
+            </Link>
             <div className="shop-icon-container">SHOPICON</div>
         </div>
     );
