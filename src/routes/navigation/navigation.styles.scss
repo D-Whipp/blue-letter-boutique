@@ -58,16 +58,20 @@
         margin: 0px;
         padding: 0px;
         opacity: 0.4;
-       
-       .search-box {
-        appearance: none;
-        -webkit-appearance: none;
-        outline: none;
-        padding: 0px;
-        width: 120px;
-        line-height: 25px;
-        margin-top: 10px;
-        padding: 0px 5px;
+        // border: 2px solid blue;
+        
+        .search-box {
+            background-color: lightcyan;
+            border: 2px solid blue;
+            border-radius: 4px;
+            appearance: none;
+            -webkit-appearance: none;
+            outline: none;
+            padding: 0px;
+            width: 120px;
+            line-height: 25px;
+            margin-top: 10px;
+            padding: 0px 5px;
        } 
     }
 

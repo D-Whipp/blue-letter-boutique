@@ -47,6 +47,9 @@
   opacity: 0.4;
 }
 .address-bar-container .search-box-container .search-box {
+  background-color: lightcyan;
+  border: 2px solid blue;
+  border-radius: 4px;
   -moz-appearance: none;
        appearance: none;
   -webkit-appearance: none;
