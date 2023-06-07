@@ -1,0 +1,12 @@
+.sign-in-container {
+  border-top: 2px solid blue;
+  color: blue;
+  height: 500px;
+  width: 100%;
+  margin: 50px auto;
+}
+.sign-in-container .sign-in-text-container {
+  margin: 50px auto;
+  text-align: center;
+  width: 80%;
+}/*# sourceMappingURL=sign-in.styles.css.map */

@@ -13,6 +13,7 @@ import PrivacyAndSecurity from './components/privacy-and-security/privacy-and-se
 import ContactUs from './components/contact-us/contact-us.component';
 import GiftCards from './components/gift-cards/gift-cards.component';
 import MyAccount from './components/my-account/my-account.component';
+import SignIn from './routes/sign-in/sign-in.component';
 
 const App = () => {
     useEffect(() => {
@@ -47,6 +48,7 @@ const App = () => {
             <Route path="/pages/contact-us" element={<ContactUs />} />
             <Route path='/pages/gift-cards' element={<GiftCards />} />
             <Route path='/pages/my-account' element={<MyAccount />} />
+            <Route path='/pages/sign-in' element={<SignIn />} />
             </Routes>
     );
 };

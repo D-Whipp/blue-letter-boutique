@@ -34,9 +34,9 @@ const Navigation = () => {
             </div>
             <Link
                 className="my-account-container"
-                to="/pages/my-account"
+                to="/pages/sign-in"
             >
-                MY ACCOUNT
+                SIGN IN
             </Link>
             <div className="shop-icon-container">SHOPICON</div>
         </div>
