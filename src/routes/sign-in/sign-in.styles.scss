@@ -9,5 +9,21 @@
         margin: 50px auto;
         text-align: center;
         width: 80%;
+
+        h2 {
+            font-size: 36px;
+        }
+
+        button {
+            border: 2px solid blue;
+            border-radius: 7px;
+            margin-top: 15px;
+            padding: 5px 17px;
+        }
+
+        button:hover {
+            background-color: blue;
+            color: white;
+        }
     }
 }

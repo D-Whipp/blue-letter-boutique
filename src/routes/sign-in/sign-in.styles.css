@@ -9,4 +9,17 @@
   margin: 50px auto;
   text-align: center;
   width: 80%;
+}
+.sign-in-container .sign-in-text-container h2 {
+  font-size: 36px;
+}
+.sign-in-container .sign-in-text-container button {
+  border: 2px solid blue;
+  border-radius: 7px;
+  margin-top: 15px;
+  padding: 5px 17px;
+}
+.sign-in-container .sign-in-text-container button:hover {
+  background-color: blue;
+  color: white;
 }/*# sourceMappingURL=sign-in.styles.css.map */

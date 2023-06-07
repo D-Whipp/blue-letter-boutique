@@ -38,7 +38,7 @@ const Navigation = () => {
             >
                 SIGN IN
             </Link>
-            <div className="shop-icon-container">SHOPICON</div>
+            <div className="shop-icon-container">SHOP</div>
         </div>
     );
 };
