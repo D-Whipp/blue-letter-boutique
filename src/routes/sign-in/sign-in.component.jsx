@@ -5,12 +5,13 @@ import Navigation from '../../routes/navigation/navigation.component';
 import QuickLinks from '../../routes/quick-links/quick-links.component';
 import Footer from '../../components/footer/footer.component';
 
-import { signInWithGooglePopup } from '../../utils/firebase/firebase.utils';
+import { signInWithGooglePopup, createUserDocumentFromAuth } from '../../utils/firebase/firebase.utils';
 
 const SignIn = () => {
     const logGoogleUser = async () => {
-        const response = await signInWithGooglePopup();
-        console.log('Response: ', response);
+        const {user} = await signInWithGooglePopup();
+        const userDocRef = await createUserDocumentFromAuth(user);
+
     };
 
     return (
