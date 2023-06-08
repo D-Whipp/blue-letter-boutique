@@ -1,29 +1,39 @@
 .sign-in-container {
     border-top: 2px solid blue;
     color: blue;
-    height: 500px;
-    width: 100%;
-    margin: 50px auto;
+    height: 425px;
+    margin-top: 55px;
 
     .sign-in-text-container {
         margin: 50px auto;
-        text-align: center;
         width: 80%;
+        
+        .sign-in-methods-container {
+            display: flex;
+            justify-content: space-around;
 
-        h2 {
-            font-size: 36px;
-        }
+            .sign-in-method {
+                border: 2px solid blue;
+                padding: 15px;
+                height: 300px;
+                text-align: center;
+                width: 300px;
 
-        button {
-            border: 2px solid blue;
-            border-radius: 7px;
-            margin-top: 15px;
-            padding: 5px 17px;
-        }
+                h2 {
+                    font-size: 25px;
+                    font-style: italic;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+            }
 
-        button:hover {
-            background-color: blue;
-            color: white;
+            .sign-up-method {
+                border: 2px solid blue;
+                padding: 15px;
+                text-align: center;
+                height: 300px;
+                width: 400px;
+            }
         }
     }
 }
