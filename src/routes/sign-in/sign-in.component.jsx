@@ -26,7 +26,7 @@ const SignIn = () => {
                 <div className="sign-in-text-container">
                     <div className="sign-in-methods-container">
                         <div className="sign-in-method">
-                            <h2>Sign In Page</h2>
+                            <h2>Sign In</h2>
                             <button onClick={logGoogleUser}>
                                 Sign in with Google Popup
                             </button>

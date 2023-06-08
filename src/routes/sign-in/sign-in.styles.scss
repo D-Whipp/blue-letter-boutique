@@ -14,24 +14,38 @@
 
             .sign-in-method {
                 border: 2px solid blue;
+                border-radius: 15px;
                 padding: 15px;
-                height: 300px;
                 text-align: center;
-                width: 300px;
+                height: 350px;
+                width: 350px;
 
                 h2 {
-                    font-size: 25px;
+                    font-size: 24px;
                     font-style: italic;
                     font-weight: bold;
                     margin-bottom: 15px;
+                }
+
+                button {
+                    border: 2px solid royalblue;
+                    border-radius: 10px;
+                    margin-top: 25px;
+                    padding: 10px 20px;
+                }
+
+                button:hover {
+                    background-color: royalblue;
+                    color: white;
                 }
             }
 
             .sign-up-method {
                 border: 2px solid blue;
+                border-radius: 15px;
                 padding: 15px;
                 text-align: center;
-                height: 300px;
+                height: 350px;
                 width: 400px;
             }
         }

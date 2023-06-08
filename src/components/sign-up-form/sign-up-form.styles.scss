@@ -1,3 +1,40 @@
 .sign-up-form-container {
     color: blue;
+    
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+        font-style: italic;
+        line-height: 1;
+    }
+    
+    form {
+        // display: flex;
+        text-align: center;
+        align-items: center;
+
+        label {
+            display: block;
+            margin: 3px 0px;
+        }
+
+        input {
+            border: 1px solid royalblue;
+            border-radius: 5px;
+        }
+
+        button {
+            border: 2px solid royalblue;
+            border-radius: 10px;
+            padding: 5px 25px;
+            display: block;
+            margin-top: 15px;
+            margin: 15px auto;
+        }
+
+        button:hover {
+            background-color: royalblue;
+            color: white;
+        }
+    }
 }
