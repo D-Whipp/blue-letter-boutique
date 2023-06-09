@@ -1,7 +1,7 @@
 .sign-in-container {
   border-top: 2px solid blue;
   color: blue;
-  height: 425px;
+  height: 650px;
   margin-top: 55px;
 }
 .sign-in-container .sign-in-text-container {
@@ -17,7 +17,7 @@
   border-radius: 15px;
   padding: 15px;
   text-align: center;
-  height: 350px;
+  height: 550px;
   width: 350px;
 }
 .sign-in-container .sign-in-text-container .sign-in-methods-container .sign-in-method h2 {
@@ -41,6 +41,6 @@
   border-radius: 15px;
   padding: 15px;
   text-align: center;
-  height: 350px;
+  height: 550px;
   width: 400px;
 }/*# sourceMappingURL=sign-in.styles.css.map */

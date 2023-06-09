@@ -28,7 +28,7 @@ const SignIn = () => {
                         <div className="sign-in-method">
                             <h2>Sign In</h2>
                             <button onClick={logGoogleUser}>
-                                Sign in with Google Popup
+                                Sign in with Google
                             </button>
                         </div>
                         <div className='sign-up-method'>
