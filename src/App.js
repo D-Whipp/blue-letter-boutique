@@ -13,18 +13,19 @@ import PrivacyAndSecurity from './components/privacy-and-security/privacy-and-se
 import ContactUs from './components/contact-us/contact-us.component';
 import GiftCards from './components/gift-cards/gift-cards.component';
 import MyAccount from './components/my-account/my-account.component';
-import SignIn from './routes/sign-in/sign-in.component';
+import Authentication from './routes/authentication/authentication.component';
 
 const App = () => {
     useEffect(() => {
         if (document) {
-          const stylesheet = document.createElement("link");
-          stylesheet.rel = "stylesheet";
-          stylesheet.href = "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css";
-    
-          document.head.appendChild(stylesheet);
+            const stylesheet = document.createElement('link');
+            stylesheet.rel = 'stylesheet';
+            stylesheet.href =
+                'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css';
+
+            document.head.appendChild(stylesheet);
         }
-      }, []);
+    }, []);
 
     return (
         <Routes>
@@ -46,10 +47,10 @@ const App = () => {
                 element={<PrivacyAndSecurity />}
             />
             <Route path="/pages/contact-us" element={<ContactUs />} />
-            <Route path='/pages/gift-cards' element={<GiftCards />} />
-            <Route path='/pages/my-account' element={<MyAccount />} />
-            <Route path='/pages/sign-in' element={<SignIn />} />
-            </Routes>
+            <Route path="/pages/gift-cards" element={<GiftCards />} />
+            <Route path="/pages/my-account" element={<MyAccount />} />
+            <Route path="/pages/authentication" element={<Authentication />} />
+        </Routes>
     );
 };
 

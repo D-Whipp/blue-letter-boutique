@@ -1,8 +1,8 @@
 import './sign-in.styles.css';
 
-import Promotion from '../../routes/promotion/promotion.component';
-import Navigation from '../../routes/navigation/navigation.component';
-import QuickLinks from '../../routes/quick-links/quick-links.component';
+import Promotion from '../promotion/promotion.component';
+import Navigation from '../navigation/navigation.component';
+import QuickLinks from '../quick-links/quick-links.component';
 import Footer from '../../components/footer/footer.component';
 import SignUpForm from '../../components/sign-up-form/sign-up-form.component';
 
@@ -11,7 +11,7 @@ import {
     createUserDocumentFromAuth,
 } from '../../utils/firebase/firebase.utils';
 
-const SignIn = () => {
+const Authentication = () => {
     const logGoogleUser = async () => {
         const { user } = await signInWithGooglePopup();
         const userDocRef = await createUserDocumentFromAuth(user);
@@ -26,13 +26,13 @@ const SignIn = () => {
                 <div className="sign-in-text-container">
                     <div className="sign-in-methods-container">
                         <div className="sign-in-method">
-                            <h2>Sign In</h2>
+                            <h2>Google Sign In</h2>
                             <button onClick={logGoogleUser}>
                                 Sign in with Google
                             </button>
                         </div>
-                        <div className='sign-up-method'>
-                            <SignUpForm /> 
+                        <div className="sign-up-method">
+                            <SignUpForm />
                         </div>
                     </div>
                 </div>
@@ -43,4 +43,4 @@ const SignIn = () => {
     );
 };
 
-export default SignIn;
+export default Authentication;
