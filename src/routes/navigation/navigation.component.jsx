@@ -34,7 +34,7 @@ const Navigation = () => {
             </div>
             <Link
                 className="my-account-container"
-                to="/pages/sign-in"
+                to="/pages/authentication"
             >
                 SIGN IN
             </Link>
