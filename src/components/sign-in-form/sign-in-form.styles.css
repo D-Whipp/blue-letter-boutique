@@ -1,0 +1,42 @@
+.sign-up-form-container {
+  color: blue;
+}
+.sign-up-form-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+}
+.sign-up-form-container .sign-in-p {
+  margin-top: -10px;
+  font-size: 14px;
+}
+.sign-up-form-container form {
+  text-align: center;
+  align-items: center;
+}
+.sign-up-form-container form label {
+  display: block;
+  margin: 3px 0px;
+}
+.sign-up-form-container form input {
+  border: 1px solid royalblue;
+  border-radius: 5px;
+}
+.sign-up-form-container form button {
+  border: 2px solid royalblue;
+  border-radius: 10px;
+  padding: 5px 25px;
+  display: block;
+  margin-top: 15px;
+  margin: 15px auto;
+  width: 175px;
+}
+.sign-up-form-container form button:hover {
+  background-color: royalblue;
+  color: white;
+}
+.sign-up-form-container form .google-sign-in-button {
+  background-color: royalblue;
+  color: white;
+}/*# sourceMappingURL=sign-in-form.styles.css.map */

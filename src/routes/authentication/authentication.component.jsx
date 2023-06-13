@@ -1,35 +1,24 @@
-import './sign-in.styles.css';
+import './authentication.styles.css';
 
 import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
 import QuickLinks from '../quick-links/quick-links.component';
 import Footer from '../../components/footer/footer.component';
-import SignUpForm from '../../components/sign-up-form/sign-up-form.component';
 
-import {
-    signInWithGooglePopup,
-    createUserDocumentFromAuth,
-} from '../../utils/firebase/firebase.utils';
+import SignUpForm from '../../components/sign-up-form/sign-up-form.component';
+import SignInForm from '../../components/sign-in-form/sign-in-form.component';
 
 const Authentication = () => {
-    const logGoogleUser = async () => {
-        const { user } = await signInWithGooglePopup();
-        const userDocRef = await createUserDocumentFromAuth(user);
-    };
-
     return (
         <>
             <Promotion />
             <Navigation />
 
-            <div className="sign-in-container">
-                <div className="sign-in-text-container">
-                    <div className="sign-in-methods-container">
+            <div className="authentication-container">
+                <div className="authentication-text-container">
+                    <div className="authentication-methods-container">
                         <div className="sign-in-method">
-                            <h2>Google Sign In</h2>
-                            <button onClick={logGoogleUser}>
-                                Sign in with Google
-                            </button>
+                            <SignInForm />
                         </div>
                         <div className="sign-up-method">
                             <SignUpForm />

@@ -1,14 +1,14 @@
-.sign-in-container {
+.authentication-container {
     border-top: 2px solid blue;
     color: blue;
     height: 650px;
     margin-top: 55px;
 
-    .sign-in-text-container {
+    .authentication-text-container {
         margin: 50px auto;
         width: 80%;
         
-        .sign-in-methods-container {
+        .authentication-methods-container {
             display: flex;
             justify-content: space-around;
 
