@@ -1,8 +1,14 @@
 import './navigation.styles.css';
 
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
+import { UserContext } from '../../components/contexts/user.context';
+
 const Navigation = () => {
+    const { currentUser } = useContext(UserContext);
+    console.log('Navigation log: ', currentUser);
+
     return (
         <div className="address-bar-container">
             <div className="website-title-container">
