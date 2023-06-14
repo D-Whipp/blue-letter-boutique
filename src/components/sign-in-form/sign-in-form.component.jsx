@@ -1,9 +1,8 @@
 import './sign-in-form.styles.css';
 
-import { useState, useContext } from 'react';
-
 import FormInput from '../form-input/form-input.component';
 
+import { useState, useContext } from 'react';
 import { UserContext } from '../contexts/user.context';
 
 import {

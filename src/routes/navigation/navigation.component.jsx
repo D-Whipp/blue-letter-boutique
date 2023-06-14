@@ -5,9 +5,15 @@ import { Link } from 'react-router-dom';
 
 import { UserContext } from '../../components/contexts/user.context';
 
+import { signOutUser } from '../../utils/firebase/firebase.utils';
+
 const Navigation = () => {
-    const { currentUser } = useContext(UserContext);
-    console.log('Navigation log: ', currentUser);
+    const { currentUser, setCurrentUser } = useContext(UserContext);
+
+    const signOutHandler = async () => {
+        await signOutUser();
+        setCurrentUser(null);
+    };
 
     return (
         <div className="address-bar-container">
@@ -38,12 +44,21 @@ const Navigation = () => {
                     placeholder="I'm looking for..."
                 />
             </div>
-            <Link
-                className="my-account-container"
-                to="/pages/authentication"
-            >
-                SIGN IN
-            </Link>
+            {currentUser ? (
+                <span
+                    className="my-account-container"
+                    onClick={signOutHandler}
+                >
+                    SIGN OUT
+                </span>
+            ) : (
+                <Link
+                    className="my-account-container"
+                    to="/pages/authentication"
+                >
+                    SIGN IN
+                </Link>
+            )}
             <div className="shop-icon-container">SHOP</div>
         </div>
     );

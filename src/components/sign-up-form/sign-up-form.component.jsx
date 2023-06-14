@@ -1,6 +1,7 @@
 import './sign-up-form.styles.css';
 
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import { UserContext } from '../contexts/user.context';
 
 import FormInput from '../form-input/form-input.component';
 
@@ -21,11 +22,13 @@ const SignUpForm = () => {
     const { displayName, email, password, confirmPassword } =
         formFields;
 
+    const { setCurrentUser } = useContext(UserContext);
+
     // console.log(formFields);
 
     const resetFormFields = () => {
         setFormFields(defaultFormFields);
-    }
+    };
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -40,6 +43,8 @@ const SignUpForm = () => {
                 email,
                 password
             );
+
+            setCurrentUser(user);
 
             await createUserDocumentFromAuth(user, { displayName });
             resetFormFields();
@@ -67,7 +72,7 @@ const SignUpForm = () => {
             <p>Sign up with your email and password</p>
             <form onSubmit={handleSubmit}>
                 <FormInput
-                    label="Display Name" 
+                    label="Display Name"
                     type="text"
                     required
                     onChange={handleChange}
