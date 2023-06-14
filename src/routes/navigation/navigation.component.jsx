@@ -8,12 +8,7 @@ import { UserContext } from '../../components/contexts/user.context';
 import { signOutUser } from '../../utils/firebase/firebase.utils';
 
 const Navigation = () => {
-    const { currentUser, setCurrentUser } = useContext(UserContext);
-
-    const signOutHandler = async () => {
-        await signOutUser();
-        setCurrentUser(null);
-    };
+    const { currentUser } = useContext(UserContext);
 
     return (
         <div className="address-bar-container">
@@ -47,7 +42,7 @@ const Navigation = () => {
             {currentUser ? (
                 <span
                     className="my-account-container"
-                    onClick={signOutHandler}
+                    onClick={signOutUser}
                 >
                     SIGN OUT
                 </span>
