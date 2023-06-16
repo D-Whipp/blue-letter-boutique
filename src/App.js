@@ -14,6 +14,7 @@ import ContactUs from './components/contact-us/contact-us.component';
 import GiftCards from './components/gift-cards/gift-cards.component';
 import MyAccount from './components/my-account/my-account.component';
 import Authentication from './routes/authentication/authentication.component';
+import Shop from './routes/shop/shop.component';
 
 const App = () => {
     useEffect(() => {
@@ -50,6 +51,7 @@ const App = () => {
             <Route path="/pages/gift-cards" element={<GiftCards />} />
             <Route path="/pages/my-account" element={<MyAccount />} />
             <Route path="/pages/authentication" element={<Authentication />} />
+            <Route path='/pages/shop' element={<Shop />} />
         </Routes>
     );
 };

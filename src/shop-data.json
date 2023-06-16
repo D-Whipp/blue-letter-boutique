@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Black Fedora",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/black-hat.jpg?updatedAt=1683944831517",
+        "price": 149
+    },
+    {
+        "id": 2,
+        "name": "Orange Fedora",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/orange-fall-hat.jpg?updatedAt=1683944831199",
+        "price": 129
+    },
+    {
+        "id": 3,
+        "name": "Straw Hat",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/straw-hat-three.jpg?updatedAt=1683944831452",
+        "price": 149
+    },
+    {
+        "id": 4,
+        "name": "Boater",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/straw-hat.jpg?updatedAt=1683944830613",
+        "price": 89
+    },
+    {
+        "id": 5,
+        "name": "Yellow Fedora",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/yellow-hat.jpg?updatedAt=1683944829221",
+        "price": 129
+    },
+    {
+        "id": 6,
+        "name": "Tan Fedora",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/brown-hat.jpg?updatedAt=1683944828854",
+        "price": 139
+    },
+    {
+        "id": 7,
+        "name": "Tan Boater",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/straw-hat-two.jpg?updatedAt=1683944823294",
+        "price": 89
+    },
+    {
+        "id": 8,
+        "name": "Blue Fedora with Ribbon",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/blue-hat.jpg?updatedAt=1683944821595",
+        "price": 149
+    },
+    {
+        "id": 9,
+        "name": "Red Sun Hat",
+        "imageUrl": "https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/red-hat.jpg?updatedAt=1683944817821",
+        "price": 179
+    }
+]
