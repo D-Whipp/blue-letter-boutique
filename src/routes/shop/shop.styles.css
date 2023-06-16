@@ -1,7 +1,7 @@
 .shop-container {
-  justify-content: center;
   border-top: 2px solid blue;
-  height: 405px;
   margin-top: 55px;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=shop.styles.css.map */

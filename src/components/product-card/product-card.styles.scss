@@ -1,0 +1,19 @@
+.product-card-container {
+    border: 3px solid blue;
+    border-radius: 5px;
+    display: block;
+    margin: 15px auto;
+
+    
+    .product-card {
+        display: block;
+        
+        img {
+            width: 200px;
+            // height: 95%;
+            object-fit: cover;
+            margin-bottom: 5px;
+          }
+    
+    }
+}

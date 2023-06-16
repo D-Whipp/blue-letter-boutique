@@ -1,0 +1,15 @@
+.product-card-container {
+  border: 3px solid blue;
+  border-radius: 5px;
+  display: block;
+  margin: 15px auto;
+}
+.product-card-container .product-card {
+  display: block;
+}
+.product-card-container .product-card img {
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=product-card.styles.css.map */
