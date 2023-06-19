@@ -1,14 +1,19 @@
 import './navigation.styles.css';
 
+import CartIcon from '../../components/cart-icon/cart-icon.component';
+import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
+
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import { UserContext } from '../../components/contexts/user.context';
+import { CartContext } from '../../components/contexts/cart.context';
 
 import { signOutUser } from '../../utils/firebase/firebase.utils';
 
 const Navigation = () => {
     const { currentUser } = useContext(UserContext);
+    const { isCartOpen } = useContext(CartContext)
 
     return (
         <div className="address-bar-container">
@@ -57,6 +62,11 @@ const Navigation = () => {
             <div className="shop-icon-container">
                 <Link to="/pages/shop">SHOP</Link>
             </div>
+            <CartIcon />
+            {
+                isCartOpen &&           
+                <CartDropdown />
+            }
         </div>
     );
 };
