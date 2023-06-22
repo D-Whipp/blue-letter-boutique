@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect } from 'react';
 
-// import { addCollectionAndDocuments } from '../../utils/firebase/firebase.utils.js';
+import { getCategoriesAndDocuments } from '../../utils/firebase/firebase.utils.js';
 
 export const ProductsContext = createContext({
     products: [],
@@ -8,7 +8,17 @@ export const ProductsContext = createContext({
 
 export const ProductsProvider = ({ children }) => {
     const [products, setProducts] = useState([]);
-    // When this useEffect fires it'll load the SHOP_DATA to
+
+    useEffect(() => {
+        const getCategoriesMap = async () => {
+            const categoryMap = await getCategoriesAndDocuments();
+            console.log(categoryMap);
+        }
+        
+        getCategoriesMap();
+    }, [])
+
+    // When this useEffect fires it'll upload the SHOP_DATA to
     // our firestore db, it only needs to fire ONCE
     // WHICH IT ALREADY HAS, check the db
     // so don't uncomment it
