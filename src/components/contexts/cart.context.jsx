@@ -31,7 +31,9 @@ const removeCartItem = (cartItems, productToRemove) => {
 
     // check if the quantity is equal to 1, if it is remove that item from the cart
     if (existingCartItem.quantity === 1) {
-        return cartItems.filter(cartItem => cartItem.id !== productToRemove.id);
+        return cartItems.filter(
+            (cartItem) => cartItem.id !== productToRemove.id
+        );
     }
 
     // if found, decrement quanitity by 1
@@ -53,8 +55,10 @@ const removeCartItem = (cartItems, productToRemove) => {
 
 const clearCartItem = (cartItems, productToClear) => {
     // if the cart item is already there, filter it out completely
-    return cartItems.filter((cartItem) => cartItem.id !== productToClear.id)
-}
+    return cartItems.filter(
+        (cartItem) => cartItem.id !== productToClear.id
+    );
+};
 
 export const CartContext = createContext({
     isCartOpen: false,
@@ -73,20 +77,27 @@ export const CartProvider = ({ children }) => {
     const [cartCount, setCartCount] = useState(0);
     const [cartTotal, setCartTotal] = useState(0);
 
-    useEffect(()=>{
-        const newCartCount = cartItems.reduce((total, cartItem) => total + cartItem.quantity, 0)
+    useEffect(() => {
+        const newCartCount = cartItems.reduce(
+            (total, cartItem) => total + cartItem.quantity,
+            0
+        );
         setCartCount(newCartCount);
-    }, [cartItems])
+    }, [cartItems]);
 
-    useEffect(()=>{
-        const newCartTotal = cartItems.reduce((total, cartItem) => total + cartItem.quantity * cartItem.price, 0)
+    useEffect(() => {
+        const newCartTotal = cartItems.reduce(
+            (total, cartItem) =>
+                total + cartItem.quantity * cartItem.price,
+            0
+        );
         setCartTotal(newCartTotal);
-    }, [cartItems])
+    }, [cartItems]);
 
     const addItemToCart = (productToAdd) => {
         setCartItems(addCartItem(cartItems, productToAdd));
     };
-    
+
     const removeItemFromCart = (productToRemove) => {
         setCartItems(removeCartItem(cartItems, productToRemove));
     };
@@ -112,3 +123,4 @@ export const CartProvider = ({ children }) => {
         </CartContext.Provider>
     );
 };
+
