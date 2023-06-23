@@ -1,7 +1,7 @@
-import './shop.styles.css'
+import './shop.styles.css';
 
-import { useContext } from 'react';
-import { ProductsContext } from '../../components/contexts/products.context';
+import { Fragment, useContext } from 'react';
+import { CategoriesContext } from '../../components/contexts/categories.context';
 import ProductCard from '../../components/product-card/product-card.component';
 
 import Promotion from '../promotion/promotion.component';
@@ -10,22 +10,33 @@ import QuickLinks from '../quick-links/quick-links.component';
 import Footer from '../../components/footer/footer.component';
 
 const Shop = () => {
-    const {products} = useContext(ProductsContext);
+    const { categoriesMap } = useContext(CategoriesContext);
+    console.log('categories map: ', categoriesMap)
 
     return (
-        <>
+        <Fragment>
             <Promotion />
             <Navigation />
 
-            <div className='shop-container'>
-                {products.map((product) => (
-                    <ProductCard key={products.id} product={product} />
+            <div className="shop-container">
+                {Object.keys(categoriesMap).map((title) => (
+                    <Fragment key={title}>
+                        <h2>{title}</h2>
+                        <div className="products-container">
+                            {categoriesMap[title].map((product) => (
+                                <ProductCard
+                                    key={product.id}
+                                    product={product}
+                                />
+                            ))}
+                        </div>
+                    </Fragment>
                 ))}
             </div>
 
             <QuickLinks />
             <Footer />
-        </>
+        </Fragment>
     );
 };
 

@@ -5,9 +5,17 @@
     margin-top: 55px;
     width: 100%;
 
-    display: flex;
-    flex-wrap: wrap;
+    h2 {
+        font-size: 28px;
+        margin-bottom: 0px;
+        padding: 10px 0px 0px 25px;
+        text-transform: capitalize;
+    }
 
-    // grid-template-columns: 60px 60px;    
-    // justify-content: center;
+    .products-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 10px;
+        row-gap: 50px;
+    }
 }

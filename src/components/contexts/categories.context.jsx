@@ -2,21 +2,22 @@ import { createContext, useState, useEffect } from 'react';
 
 import { getCategoriesAndDocuments } from '../../utils/firebase/firebase.utils.js';
 
-export const ProductsContext = createContext({
-    products: [],
+export const CategoriesContext = createContext({
+    categoriesMap: {},
 });
 
-export const ProductsProvider = ({ children }) => {
-    const [products, setProducts] = useState([]);
+export const CategoriesProvider = ({ children }) => {
+    const [categoriesMap, setCategoriesMap] = useState({});
 
     useEffect(() => {
         const getCategoriesMap = async () => {
             const categoryMap = await getCategoriesAndDocuments();
-            console.log(categoryMap);
-        }
-        
+            console.log('Category Map: ', categoryMap);
+            setCategoriesMap(categoryMap);
+        };
+
         getCategoriesMap();
-    }, [])
+    }, []);
 
     // When this useEffect fires it'll upload the SHOP_DATA to
     // our firestore db, it only needs to fire ONCE
@@ -25,10 +26,10 @@ export const ProductsProvider = ({ children }) => {
     // useEffect(() => {
     //     addCollectionAndDocuments('categories', SHOP_DATA)
     // }, [])
-    const value = { products };
+    const value = { categoriesMap };
     return (
-        <ProductsContext.Provider value={value}>
+        <CategoriesContext.Provider value={value}>
             {children}
-        </ProductsContext.Provider>
+        </CategoriesContext.Provider>
     );
 };
