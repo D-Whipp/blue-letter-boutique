@@ -1,8 +1,8 @@
 import './shop.styles.css';
 
-import { Fragment, useContext } from 'react';
+import { useContext } from 'react';
 import { CategoriesContext } from '../../components/contexts/categories.context';
-import ProductCard from '../../components/product-card/product-card.component';
+import CategoryPreview from '../../components/category-preview/category-preview.component';
 
 import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
@@ -14,29 +14,26 @@ const Shop = () => {
     // console.log('categories map: ', categoriesMap)
 
     return (
-        <Fragment>
+        <>
             <Promotion />
             <Navigation />
 
             <div className="shop-container">
-                {Object.keys(categoriesMap).map((title) => (
-                    <Fragment key={title}>
-                        <h2>{title}</h2>
-                        <div className="products-container">
-                            {categoriesMap[title].map((product) => (
-                                <ProductCard
-                                    key={product.id}
-                                    product={product}
-                                />
-                            ))}
-                        </div>
-                    </Fragment>
-                ))}
+                {Object.keys(categoriesMap).map((title) => {
+                    const products = categoriesMap[title];
+                    return (
+                        <CategoryPreview
+                            key={title}
+                            title={title}
+                            products={products}
+                        />
+                    );
+                })}
             </div>
 
             <QuickLinks />
             <Footer />
-        </Fragment>
+        </>
     );
 };
 
