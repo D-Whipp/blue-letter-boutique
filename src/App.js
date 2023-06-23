@@ -53,7 +53,7 @@ const App = () => {
             <Route path="/pages/gift-cards" element={<GiftCards />} />
             <Route path="/pages/my-account" element={<MyAccount />} />
             <Route path="/pages/authentication" element={<Authentication />} />
-            <Route path='/pages/shop' element={<Shop />} />
+            <Route path='/pages/shop/*' element={<Shop />} />
             <Route path='/pages/checkout' element={<Checkout />} />
         </Routes>
     );
