@@ -11,7 +11,7 @@ import Footer from '../../components/footer/footer.component';
 
 const Shop = () => {
     const { categoriesMap } = useContext(CategoriesContext);
-    console.log('categories map: ', categoriesMap)
+    // console.log('categories map: ', categoriesMap)
 
     return (
         <Fragment>

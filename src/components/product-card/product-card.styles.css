@@ -35,6 +35,7 @@
 }
 .product-card-container .product-card .card-footer .price {
   font-style: oblique;
+  font-size: 20px;
 }
 .product-card-container .product-card .card-button {
   border: 2px solid blue;
