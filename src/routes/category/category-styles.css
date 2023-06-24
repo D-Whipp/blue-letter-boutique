@@ -1,9 +1,17 @@
+.category-title {
+  border-top: 2px solid blue;
+  color: blue;
+  font-size: 28px;
+  font-style: oblique;
+  margin-top: 55px;
+  padding-left: 25px;
+  text-transform: capitalize;
+}
+
 .category-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 50px;
-  border-top: 2px solid blue;
-  margin-top: 55px;
 }/*# sourceMappingURL=category-styles.css.map */

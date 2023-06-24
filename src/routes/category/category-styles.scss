@@ -1,9 +1,22 @@
+
+.category-title {
+    border-top: 2px solid blue;
+    // width: 100%;
+    color: blue;
+    font-size: 28px;
+    font-style: oblique;
+    margin-top: 55px;
+    padding-left: 25px;
+    // margin: 25px;
+    text-transform: capitalize;
+}
+
 .category-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 50px;
 
-    border-top: 2px solid blue;
-    margin-top: 55px;
+    // border-top: 2px solid blue;
+    // margin-top: 55px;
 }

@@ -13,7 +13,7 @@ import { signOutUser } from '../../utils/firebase/firebase.utils';
 
 const Navigation = () => {
     const { currentUser } = useContext(UserContext);
-    const { isCartOpen } = useContext(CartContext)
+    const { isCartOpen } = useContext(CartContext);
 
     return (
         <div className="address-bar-container">
@@ -27,12 +27,26 @@ const Navigation = () => {
             <div className="navigation-container">
                 <ul>
                     <li>WHAT'S NEW</li>
-                    <li>DRESSES</li>
-                    <li>SWIM</li>
-                    <li>CLOTHING</li>
-                    <li>JEWELRY</li>
-                    <li>ACCESSORIES</li>
-                    <li>SHOES</li>
+                    <li>
+                        <Link to="/pages/shop/dresses">DRESSES</Link>
+                    </li>
+                    <li>
+                        <Link to="/pages/shop/two piece">
+                            TWO PIECE
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/pages/shop/shirts">SHIRTS</Link>
+                    </li>
+                    <li>
+                        <Link to="/pages/shop/pants">PANTS</Link>
+                    </li>
+                    <li>
+                        <Link to="/pages/shop/hats">HATS</Link>
+                    </li>
+                    <li>
+                        <Link to="/pages/shop/shoes">SHOES</Link>
+                    </li>
                     <li>SALE</li>
                 </ul>
             </div>
@@ -63,10 +77,7 @@ const Navigation = () => {
                 <Link to="/pages/shop">SHOP</Link>
             </div>
             <CartIcon />
-            {
-                isCartOpen &&           
-                <CartDropdown />
-            }
+            {isCartOpen && <CartDropdown />}
         </div>
     );
 };
