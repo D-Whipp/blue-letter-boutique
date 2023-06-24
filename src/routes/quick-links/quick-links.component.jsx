@@ -6,10 +6,18 @@ const QuickLinks = () => {
     return (
         <div className="links-and-social-media">
             <div className="social-media-symbols">
-                <p>Instagram</p>
-                <p>Facebook</p>
-                <p>Tiktok</p>
-                <p>Pinterest</p>
+                <Link target="_blank" to="https://www.instagram.com/">
+                    <p>Instagram</p>
+                </Link>
+                <Link target="_blank" to="https://www.facebook.com/">
+                    <p>Facebook</p>
+                </Link>
+                <Link target="_blank" to="https://www.tiktok.com/">
+                    <p>Tiktok</p>
+                </Link>
+                <Link target="_blank" to="https://www.pinterest.com/">
+                    <p>Pinterest</p>
+                </Link>
             </div>
             <div className="misc-links">
                 <h3>Help</h3>

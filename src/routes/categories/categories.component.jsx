@@ -1,33 +1,47 @@
 import './categories.styles.css';
 
+import { Link } from 'react-router-dom';
+
 const Categories = () => {
     return (
         <div className="categories-container">
-                <div className="categories-text-container">
-                    <p>Shop the category</p>
-                </div>
-                <div className="category-items-container">
-                    <div className="category-item dress-image">
+            <div className="categories-text-container">
+                <p>Shop the category</p>
+            </div>
+            <div className="category-items-container">
+                <div className="category-item dress-image">
+                    <Link to="/pages/shop/dresses">
                         <p>Dresses</p>
-                    </div>
-                    <div className="category-item two-piece-image">
+                    </Link>
+                </div>
+                <div className="category-item two-piece-image">
+                    <Link to="/pages/shop/two piece">
                         <p>Two Piece</p>
-                    </div>
-                    <div className="category-item shirt-image">
+                    </Link>
+                </div>
+                <div className="category-item shirt-image">
+                    <Link to="/pages/shop/shirts">
                         <p>Shirts</p>
-                    </div>
-                    <div className="category-item pants-image">
+                    </Link>
+                </div>
+                <div className="category-item pants-image">
+                    <Link to="/pages/shop/pants">
                         <p>Pants</p>
-                    </div>
-                    <div className="category-item hats-image">
+                    </Link>
+                </div>
+                <div className="category-item hats-image">
+                    <Link to="/pages/shop/hats">
                         <p>Hats</p>
-                    </div>
-                    <div className="category-item shoes-image">
+                    </Link>
+                </div>
+                <div className="category-item shoes-image">
+                    <Link to="/pages/shop/shoes">
                         <p>Shoes</p>
-                    </div>
+                    </Link>
                 </div>
             </div>
-    )
-}
+        </div>
+    );
+};
 
 export default Categories;
