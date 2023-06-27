@@ -49,7 +49,11 @@ const Navigation = () => {
                     <li>
                         <Link to="/pages/shop/shoes">SHOES</Link>
                     </li>
-                    <li>SALE</li>
+                    <li>
+                        <Link to='/pages/sale'>
+                        SALE
+                        </Link>
+                    </li>
                 </ul>
             </div>
 
