@@ -26,7 +26,9 @@ const Navigation = () => {
             </div>
             <div className="navigation-container">
                 <ul>
-                    <li>WHAT'S NEW</li>
+                    <li>
+                        <Link to="/pages/whats-new">WHAT'S NEW</Link>
+                    </li>
                     <li>
                         <Link to="/pages/shop/dresses">DRESSES</Link>
                     </li>

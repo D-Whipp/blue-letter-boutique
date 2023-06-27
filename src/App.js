@@ -17,6 +17,7 @@ import MyAccount from './components/my-account/my-account.component';
 import Authentication from './routes/authentication/authentication.component';
 import Shop from './routes/shop/shop.component';
 import Checkout from './routes/checkout/checkout.component';
+import WhatsNew from './components/whats-new/whats-new.component';
 
 const App = () => {
     useEffect(() => {
@@ -55,6 +56,7 @@ const App = () => {
             <Route path="/pages/authentication" element={<Authentication />} />
             <Route path='/pages/shop/*' element={<Shop />} />
             <Route path='/pages/checkout' element={<Checkout />} />
+            <Route path='/pages/whats-new' element={<WhatsNew />} />
         </Routes>
     );
 };
