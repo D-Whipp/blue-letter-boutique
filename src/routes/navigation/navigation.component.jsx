@@ -50,9 +50,7 @@ const Navigation = () => {
                         <Link to="/pages/shop/shoes">SHOES</Link>
                     </li>
                     <li>
-                        <Link to='/pages/sale'>
-                        SALE
-                        </Link>
+                        <Link to="/pages/shop/sales">SALE</Link>
                     </li>
                 </ul>
             </div>

@@ -18,7 +18,7 @@ import Authentication from './routes/authentication/authentication.component';
 import Shop from './routes/shop/shop.component';
 import Checkout from './routes/checkout/checkout.component';
 import WhatsNew from './components/whats-new/whats-new.component';
-import Sale from './components/sale/sale.component';
+// import Sale from './components/sale/sale.component';
 
 const App = () => {
     useEffect(() => {
@@ -61,9 +61,9 @@ const App = () => {
             <Route path="/pages/shop/*" element={<Shop />} />
             <Route path="/pages/checkout" element={<Checkout />} />
             <Route path="/pages/whats-new" element={<WhatsNew />} />
-            <Route path="/pages/sale" element={<Sale />} />
         </Routes>
     );
 };
 
+// <Route path="/pages/sale" element={<Sale />} />
 export default App;
