@@ -18,7 +18,6 @@ import Authentication from './routes/authentication/authentication.component';
 import Shop from './routes/shop/shop.component';
 import Checkout from './routes/checkout/checkout.component';
 import WhatsNew from './components/whats-new/whats-new.component';
-// import Sale from './components/sale/sale.component';
 
 const App = () => {
     useEffect(() => {
@@ -65,5 +64,4 @@ const App = () => {
     );
 };
 
-// <Route path="/pages/sale" element={<Sale />} />
 export default App;
