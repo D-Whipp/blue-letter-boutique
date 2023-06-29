@@ -28,6 +28,8 @@ export const CategoriesProvider = ({ children }) => {
     // our firestore db, it only needs to fire ONCE
     // WHICH IT ALREADY HAS, check the db
     // so don't uncomment it
+    // unless you've added items to the SHOP_DATA.js
+    // and need to upload them
     // useEffect(() => {
     //     addCollectionAndDocuments('categories', SHOP_DATA);
     // }, []);

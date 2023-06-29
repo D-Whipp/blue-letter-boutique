@@ -59,7 +59,7 @@ const QuickLinks = () => {
                 </Link>
                 <Link
                     className="quick-access-link"
-                    to="/pages/gift-cards"
+                    to="/pages/shop/gift-card"
                 >
                     Gift Cards
                 </Link>

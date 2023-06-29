@@ -475,6 +475,32 @@ const SHOP_DATA = [
             },
         ],
     },
+    {
+        title: 'Gift-Card',
+        items: [
+            {
+                id: 64,
+                name: '25 Dollar Gift Card',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/gift-cards/gift-card.jpg?updatedAt=1688073795432',
+                price: 25,
+            },
+            {
+                id: 65,
+                name: '50 Dollar Gift Card',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/gift-cards/gift-card.jpg?updatedAt=1688073795432',
+                price: 50,
+            },
+            {
+                id: 66,
+                name: '100 Dollar Gift Card',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/gift-cards/gift-card.jpg?updatedAt=1688073795432',
+                price: 100,
+            },
+        ],
+    },
 ];
 
 export default SHOP_DATA;
