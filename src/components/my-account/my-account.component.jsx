@@ -3,6 +3,8 @@ import './my-account.styles.css';
 import { useContext } from 'react';
 import { UserContext } from '../contexts/user.context';
 
+import { Link } from 'react-router-dom';
+
 import Promotion from '../../routes/promotion/promotion.component';
 import Navigation from '../../routes/navigation/navigation.component';
 import QuickLinks from '../../routes/quick-links/quick-links.component';
@@ -19,8 +21,20 @@ const MyAccount = () => {
             <Navigation />
 
             <div className="my-account-container">
-            Todo: Create My Account Page
-            <p>{currentUser.email}</p>
+                {currentUser ? (
+                    <div className='my-account-content'>
+                    <h2>Welcome back {currentUser.email}!</h2>
+                    </div>
+                ) : (
+                    <div className="login-needed">
+                        You're not logged in!
+                        <button>
+                            <Link to="/pages/authentication">
+                                Go To Login
+                            </Link>
+                        </button>
+                    </div>
+                )}
             </div>
 
             <QuickLinks />

@@ -4,5 +4,26 @@
     height: 460px;
     margin-top: 55px;
     padding: 25px;
-    
+    text-align: center;
+
+    .my-account-content {
+        font-size: 38px;
+    }
+
+    .login-needed {
+        font-size: 38px;
+
+        button {
+            border: 2px solid blue;
+            border-radius: 15px;
+            display: block;
+            padding: 10px 15px;
+            margin: 20px auto 0px auto;
+        }
+
+        button:hover {
+            background-color: blue;
+            color: white;
+        }
+    }
 }
