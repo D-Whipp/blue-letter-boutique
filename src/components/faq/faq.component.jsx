@@ -1,5 +1,7 @@
 import './faq.styles.css';
 
+import { Link } from 'react-router-dom';
+
 import Promotion from '../../routes/promotion/promotion.component';
 import Navigation from '../../routes/navigation/navigation.component';
 import QuickLinks from '../../routes/quick-links/quick-links.component';
@@ -15,8 +17,10 @@ const FAQ = () => {
                 <h2>frequently asked questions</h2>
                 <div className="faq-text-container">
                     <details>
-                        <summary className='root-details-container'>My Account & Ordering</summary>
-                        <details className='level-one-details-container'>
+                        <summary className="root-details-container">
+                            My Account & Ordering
+                        </summary>
+                        <details className="level-one-details-container">
                             <summary>
                                 How do I create an account?
                             </summary>
@@ -26,33 +30,38 @@ const FAQ = () => {
                                 on CREATE ACCOUNT.{' '}
                             </p>
                         </details>
-                        <details
-                        className='level-one-details-container'>
+                        <details className="level-one-details-container">
                             <summary>
                                 I forgot my password. What do I do?
                             </summary>
                             <p>
-                                Click <a href="#!">here</a> to access
-                                the account page.
+                                Click{' '}
+                                <Link
+                                    className="click-me"
+                                    to="/pages/contact-us"
+                                >
+                                    here
+                                </Link>{' '}
+                                to access the Contact Us page.
                             </p>
                             <p>
-                                Click on the{' '}
-                                <span className="forgot-password-text">
-                                    FORGOT PASSWORD?
+                                Simply fill out the form and in{' '}
+                                <span className="your-message-text">
+                                    your message
                                 </span>{' '}
-                                link.
+                                mention you need your password reset.
                             </p>
                             <p>
-                                Enter the email address associated
-                                with your account and you will be sent
-                                a password reset link.
+                                In 48 hours you will receive an email
+                                with a link for the password reset.
                             </p>
                         </details>
                     </details>
                     <details>
-                        <summary className='root-details-container'>Shipping</summary>
-                        <details
-                        className='level-one-details-container'>
+                        <summary className="root-details-container">
+                            Shipping
+                        </summary>
+                        <details className="level-one-details-container">
                             <summary>
                                 What shipping methods do you offer?
                             </summary>
@@ -171,26 +180,30 @@ const FAQ = () => {
                         </details>
                     </details>
                     <details>
-                        <summary className='root-details-container'>Returns</summary>
-                        <details
-                        className='level-one-details-container'>
+                        <summary className="root-details-container">
+                            Returns
+                        </summary>
+                        <details className="level-one-details-container">
                             <summary>
                                 What is your return policy?
                             </summary>
                             <p>
-                                <span className='important-notice'>We accept returns for refund to your
-                                original form of payment when
-                                postmarked within 14 calendar days
-                                from the date you receive your
-                                order.</span>
+                                <span className="important-notice">
+                                    We accept returns for refund to
+                                    your original form of payment when
+                                    postmarked within 14 calendar days
+                                    from the date you receive your
+                                    order.
+                                </span>
                             </p>
                             <p>
-                            <span className='important-notice'>We accept returns for an online credit
-                            for non-final sale items when
-                            postmarked within 30 calendar days
-                            from the date your order was
-                            shipped.</span>
-                                
+                                <span className="important-notice">
+                                    We accept returns for an online
+                                    credit for non-final sale items
+                                    when postmarked within 30 calendar
+                                    days from the date your order was
+                                    shipped.
+                                </span>
                             </p>
                             <p>
                                 Items marked with Final Sale cannot be
@@ -220,21 +233,22 @@ const FAQ = () => {
                             </p>
                             <p>
                                 Jewelry and hats are returnable in new
-                                condition. Jewelry and
-                                hats are not returnable if they are in
-                                the sale section.
+                                condition. Jewelry and hats are not
+                                returnable if they are in the sale
+                                section.
                             </p>
                             <p>
-                                Final Sale/Clearance
-                                category items are final sale and may
-                                not be returned or exchanged.
+                                Final Sale/Clearance category items
+                                are final sale and may not be returned
+                                or exchanged.
                             </p>
                         </details>
                     </details>
                     <details>
-                        <summary className='root-details-container'>Payments</summary>
-                        <details
-                        className='level-one-details-container'>
+                        <summary className="root-details-container">
+                            Payments
+                        </summary>
+                        <details className="level-one-details-container">
                             <summary>
                                 What forms of payment do you accept?
                             </summary>

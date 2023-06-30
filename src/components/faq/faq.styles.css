@@ -36,6 +36,10 @@
   color: black;
   font-size: 20px;
 }
+.faq-container .faq-text-container details .level-one-details-container .click-me {
+  color: blue;
+  text-decoration: underline;
+}
 .faq-container .faq-text-container details .level-one-details-container h3 {
   color: blue;
   font-size: 16px;
