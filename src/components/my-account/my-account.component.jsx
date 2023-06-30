@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { UserContext } from '../contexts/user.context';
 
 import { Link } from 'react-router-dom';
-import { getAuth, updateProfile } from 'firebase/auth';
+// import { getAuth, updateProfile } from 'firebase/auth';
 
 import Promotion from '../../routes/promotion/promotion.component';
 import Navigation from '../../routes/navigation/navigation.component';
@@ -13,7 +13,7 @@ import Footer from '../footer/footer.component';
 
 const MyAccount = () => {
     const { currentUser } = useContext(UserContext);
-    const auth = getAuth();
+    // const auth = getAuth();
     // updateProfile(auth.currentUser, {
     //     displayName: 'Miles M.',
     //     photoUrl:
@@ -25,8 +25,7 @@ const MyAccount = () => {
     //     .catch((error) => {
     //         console.log(error);
     //     });
-
-    console.log('My Account Current User: ', currentUser);
+    console.log(currentUser)
 
     return (
         <>
@@ -39,6 +38,16 @@ const MyAccount = () => {
                         <h2>
                             Welcome back {currentUser.displayName}
                         </h2>
+                        <div className="user-information">
+                            <img
+                                className="user-photo"
+                                src={currentUser.photoURL}
+                                alt={currentUser.displayName}
+                            />
+                        </div>
+                        <div className="user-email">
+                            <p>{currentUser.email}</p>
+                        </div>
                     </div>
                 ) : (
                     <div className="login-needed">

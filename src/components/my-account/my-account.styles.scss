@@ -8,6 +8,21 @@
 
     .my-account-content {
         font-size: 38px;
+
+        .user-information {
+
+            
+            .user-photo {
+                border: 2px solid blue;
+                border-radius: 15px;
+                height: 140px;
+                margin: 10px auto;
+            }
+        }
+
+        .user-email {
+            font-size: 30px;
+        }
     }
 
     .login-needed {

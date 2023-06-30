@@ -9,6 +9,15 @@
 .my-account-container .my-account-content {
   font-size: 38px;
 }
+.my-account-container .my-account-content .user-information .user-photo {
+  border: 2px solid blue;
+  border-radius: 15px;
+  height: 140px;
+  margin: 10px auto;
+}
+.my-account-container .my-account-content .user-email {
+  font-size: 30px;
+}
 .my-account-container .login-needed {
   font-size: 38px;
 }
