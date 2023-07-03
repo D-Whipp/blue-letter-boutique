@@ -23,6 +23,20 @@
         .user-email {
             font-size: 30px;
         }
+
+        .lets-go-shopping-btn {
+            button {
+                border: 2px solid blue;
+                border-radius: 15px;
+                margin-top: 15px;
+                padding: 10px 15px;
+            }
+
+            button:hover {
+                color: white;
+                background-color: blue;
+            }
+        }
     }
 
     .login-needed {

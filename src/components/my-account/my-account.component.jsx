@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { UserContext } from '../contexts/user.context';
 
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 // import { getAuth, updateProfile } from 'firebase/auth';
 
 import Promotion from '../../routes/promotion/promotion.component';
@@ -13,19 +14,14 @@ import Footer from '../footer/footer.component';
 
 const MyAccount = () => {
     const { currentUser } = useContext(UserContext);
-    // const auth = getAuth();
-    // updateProfile(auth.currentUser, {
-    //     displayName: 'Miles M.',
-    //     photoUrl:
-    //         'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/orange-fall-hat.jpg?updatedAt=1683944831199',
-    // })
-    //     .then(() => {
-    //         alert('profile updated!');
-    //     })
-    //     .catch((error) => {
-    //         console.log(error);
-    //     });
-    console.log(currentUser)
+    const [user, setUser] = useState({});
+
+    useEffect(() => {
+        setUser(currentUser);
+    }, [currentUser]);
+
+    console.log('Current User: ', currentUser);
+    console.log('User: ', user);
 
     return (
         <>
@@ -33,20 +29,25 @@ const MyAccount = () => {
             <Navigation />
 
             <div className="my-account-container">
-                {currentUser ? (
+                {user ? (
                     <div className="my-account-content">
-                        <h2>
-                            Welcome back {currentUser.displayName}
-                        </h2>
+                        <h2>Welcome back {user.displayName}</h2>
                         <div className="user-information">
                             <img
                                 className="user-photo"
-                                src={currentUser.photoURL}
-                                alt={currentUser.displayName}
+                                src={user.photoURL}
+                                alt={user.displayName}
                             />
                         </div>
                         <div className="user-email">
-                            <p>{currentUser.email}</p>
+                            <p>{user.email}</p>
+                        </div>
+                        <div className="lets-go-shopping-btn">
+                            <button>
+                                <Link to="/pages/shop">
+                                    Let's Start Shopping!
+                                </Link>
+                            </button>
                         </div>
                     </div>
                 ) : (
