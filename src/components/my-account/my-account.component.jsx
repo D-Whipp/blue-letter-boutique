@@ -42,10 +42,15 @@ const MyAccount = () => {
                         <div className="user-email">
                             <p>{user.email}</p>
                         </div>
-                        <div className="lets-go-shopping-btn">
+                        <div className="buttons-container">
                             <button>
                                 <Link to="/pages/shop">
                                     Let's Start Shopping!
+                                </Link>
+                            </button>
+                            <button>
+                                <Link to="/pages/contact-us">
+                                    Need Help?
                                 </Link>
                             </button>
                         </div>

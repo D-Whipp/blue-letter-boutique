@@ -18,13 +18,13 @@
 .my-account-container .my-account-content .user-email {
   font-size: 30px;
 }
-.my-account-container .my-account-content .lets-go-shopping-btn button {
+.my-account-container .my-account-content .buttons-container button {
   border: 2px solid blue;
   border-radius: 15px;
-  margin-top: 15px;
+  margin: 15px;
   padding: 10px 15px;
 }
-.my-account-container .my-account-content .lets-go-shopping-btn button:hover {
+.my-account-container .my-account-content .buttons-container button:hover {
   color: white;
   background-color: blue;
 }
