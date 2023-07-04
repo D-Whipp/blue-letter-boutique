@@ -3,8 +3,8 @@ import './navigation.styles.css';
 import CartIcon from '../../components/cart-icon/cart-icon.component';
 import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
 
-import { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { useContext, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { UserContext } from '../../components/contexts/user.context';
 import { CartContext } from '../../components/contexts/cart.context';
@@ -14,6 +14,33 @@ import { signOutUser } from '../../utils/firebase/firebase.utils';
 const Navigation = () => {
     const { currentUser } = useContext(UserContext);
     const { isCartOpen } = useContext(CartContext);
+    const [searchField, setSearchField] = useState('');
+    const navigate = useNavigate();
+
+    const onSearchChange = (event) => {
+        const searchFieldString =
+            event.target.value.toLocaleLowerCase();
+        setSearchField(searchFieldString);
+        console.log('Search Field String: ', searchField);
+
+        if (searchField === 'dresses' || searchField === 'dres') {
+            navigate('/pages/shop/dresses');
+        } else if (searchField === 'gift') {
+            navigate('/pages/shop/gift-card');
+        } else if (searchField === 'ha') {
+            navigate('/pages/shop/hats');
+        } else if (searchField === 'pan') {
+            navigate('/pages/shop/pants');
+        } else if (searchField === 'sal') {
+            navigate('/pages/shop/sales');
+        } else if (searchField === 'shi') {
+            navigate('/pages/shop/shirts');
+        } else if (searchField === 'sho') {
+            navigate('/pages/shop/shoes');
+        } else if (searchField === 'two') {
+            navigate('/pages/shop/two piece');
+        }
+    };
 
     return (
         <div className="address-bar-container">
@@ -60,8 +87,10 @@ const Navigation = () => {
                     className="search-box"
                     type="search"
                     placeholder="I'm looking for..."
+                    onChange={onSearchChange}
                 />
             </div>
+
             {currentUser ? (
                 <span
                     className="my-account-container"
@@ -77,6 +106,7 @@ const Navigation = () => {
                     SIGN IN
                 </Link>
             )}
+
             <div className="shop-icon-container">
                 <Link to="/pages/shop">SHOP</Link>
             </div>
