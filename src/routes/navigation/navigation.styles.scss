@@ -6,8 +6,10 @@
     justify-content: space-between;
     height: 50px;
     width: 100%;
-    max-width: 1050px;
-    margin: 0px auto;
+	max-width: 1150px;
+	position: relative;
+	left: 50%;
+	translate: -50%;
 
     .website-title-container {      
         h1 {
@@ -16,14 +18,10 @@
             margin-left: 5px;
             .nav-link {
                 color: blue;
-                // background-color: white;
                 font-family: Gabriola, 'Times New Roman', sans-serif;
                 font-size: 32px;
                 font-weight: lighter;
-                // margin-bottom: -18px;
-                // padding-top: 300px;
                 text-decoration: none;
-                // list-style-type: none;
         }
     }
     
@@ -61,7 +59,6 @@
         margin: 0px;
         padding: 0px;
         opacity: 0.4;
-        // border: 2px solid blue;
         
         .search-box {
             background-color: lightcyan;
@@ -83,7 +80,6 @@
     }
 
     .my-account-container {
-        // border: 2px solid red;
         border-top: none;
         color: black;
         font-size: 14px;
