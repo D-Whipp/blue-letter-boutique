@@ -2,4 +2,8 @@
   border-top: 2px solid blue;
   margin-top: 55px;
   padding: 0px 15px;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
 }/*# sourceMappingURL=categories-preview.styles.css.map */
