@@ -1,5 +1,9 @@
 .trends-container {
   text-align: center;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
 }
 .trends-container .trends-text {
   border-bottom: 2px solid blue;

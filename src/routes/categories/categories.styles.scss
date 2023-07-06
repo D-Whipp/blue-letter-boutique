@@ -2,6 +2,11 @@
 .categories-container {
     width: 100%;
 
+    max-width: 1150px;
+	position: relative;
+	left: 50%;
+	translate: -50%;
+
     .categories-text-container {
         border-bottom: 2px solid blue;
         color: blue;

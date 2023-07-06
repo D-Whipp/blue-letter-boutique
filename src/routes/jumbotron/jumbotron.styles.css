@@ -1,11 +1,15 @@
 .jumbotron-container {
-  background-image: url("../../assets/groups/city-girls.jpg");
+  background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/city-girls.jpg?updatedAt=1683683648362");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 500px;
   width: 100%;
   text-align: center;
+  max-width: 1050px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
 }
 .jumbotron-container .jumbotron-text h2 {
   font-family: Gabriola, sans-serif;
