@@ -4,6 +4,10 @@
   margin-top: 60px;
   padding: 50px 0px;
   width: 100%;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
 }
 .returns-container .returns-text-container {
   margin: 50px auto;

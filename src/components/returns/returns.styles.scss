@@ -1,20 +1,14 @@
-// ***** STYLES FOR NAVBAR TITLE *****
-// ***** ODD BEHAVIOR IS OBSERVED IF THIS BLOCK IS REMOVED
-// .address-bar-container h1 {
-//     margin-top: 2px;
-//     padding-top: 0px;
-// }
-
-
-
-// ***** Styles for Returns Component *****
-
 .returns-container {
     border-top: 2px solid blue;
     text-align: center;
     margin-top: 60px;
     padding: 50px 0px;
     width: 100%;
+
+    max-width: 1150px;
+	position: relative;
+	left: 50%;
+	translate: -50%;
 
     .returns-text-container {
         margin: 50px auto;
