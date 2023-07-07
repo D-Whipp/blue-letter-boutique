@@ -23,7 +23,7 @@
 .trends-container .trends-image-container .left-trend-container {
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/red-dress.jpg?updatedAt=1683860768652");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
@@ -44,7 +44,7 @@
 .trends-container .trends-image-container .right-trend-container {
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/dresses/purple-flowers-black-dress.jpg?updatedAt=1683944463030");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   border: 2px solid blue;
   border-radius: 5px;
