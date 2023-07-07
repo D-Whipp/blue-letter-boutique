@@ -31,10 +31,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	max-width: 1150px;
+	/* max-width: 1450px;
 	position: absolute;
 	left: 50%;
-	translate: -50%;
+	translate: -50%; */
 }
 ol, ul {
 	list-style: none;
