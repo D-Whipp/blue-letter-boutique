@@ -4,6 +4,10 @@
   padding-top: 45px;
   text-align: center;
   width: 100%;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
 }
 .faq-container h2 {
   color: blue;
