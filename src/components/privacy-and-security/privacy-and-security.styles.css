@@ -1,8 +1,12 @@
 .privacy-and-security-container {
   border-top: 2px solid blue;
   text-align: center;
-  margin: 60px 0px;
+  margin: 15px 0px;
   width: 100%;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
 }
 .privacy-and-security-container .privacy-and-policy-text-container {
   margin: 0 auto;
