@@ -1,9 +1,13 @@
 .terms-of-use-container {
   border-top: 2px solid blue;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 15px;
   padding: 50px 0px;
   width: 100%;
+  max-width: 1150px;
+  position: relative;
+  left: 50%;
+  translate: -50%;
 }
 .terms-of-use-container .terms-of-use-text-container {
   width: 80%;
