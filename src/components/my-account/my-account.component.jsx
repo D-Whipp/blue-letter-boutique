@@ -20,8 +20,6 @@ const MyAccount = () => {
         setUser(currentUser);
     }, [currentUser]);
 
-    console.log('Current User: ', currentUser);
-    console.log('User: ', user);
 
     return (
         <>

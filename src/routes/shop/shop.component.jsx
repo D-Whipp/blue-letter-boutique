@@ -10,7 +10,6 @@ import QuickLinks from '../quick-links/quick-links.component';
 import Footer from '../../components/footer/footer.component';
 
 const Shop = () => {
-    // console.log('categories map: ', categoriesMap)
 
     return (
         <>

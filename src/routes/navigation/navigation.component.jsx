@@ -21,7 +21,6 @@ const Navigation = () => {
         const searchFieldString =
             event.target.value.toLocaleLowerCase();
         setSearchField(searchFieldString);
-        // console.log('Search Field String: ', searchField);
 
         if (searchField === 'dresses' || searchField === 'dres') {
             navigate('/pages/shop/dresses');
