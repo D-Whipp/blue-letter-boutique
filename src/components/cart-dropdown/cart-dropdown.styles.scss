@@ -1,18 +1,20 @@
 .cart-dropdown-container {
-    position: absolute;
-    // position: fixed;
-    box-shadow: -2px 3px black;
-    width: 240px;
-    height: 340px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border: 2px solid black;
-    // background-color: black;
-    top: 65px;
-    right: 25px;
-    z-index: 5000;
-    opacity: 1;
+  box-shadow: -2px 3px black;
+  width: 240px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid blue;
+  background-color: white;
+
+  // transform: rotate(-1deg);
+
+  position: absolute;
+  top: 65px;
+  right: 30px;
+  z-index: 5;
+  opacity: 1;
   
     .empty-message {
       font-size: 18px;
@@ -24,7 +26,6 @@
       display: flex;
       flex-direction: column;
       overflow: scroll;
-      // background-color: black;
     }
   
     button {
@@ -44,5 +45,5 @@
         color: blue;
         background-color: white;
     }
-  }
+}
   
