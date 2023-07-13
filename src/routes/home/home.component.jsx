@@ -1,6 +1,5 @@
 import './home.styles.css';
 
-// import { Outlet } from 'react-router-dom';
 import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
 import MobileNavigation from '../mobile-navigation/mobile-navigation.component';

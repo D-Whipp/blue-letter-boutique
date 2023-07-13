@@ -1,10 +1,24 @@
 import './mobile-navigation.styles.css';
 
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const MobileNavigation = () => {
+    const [mobileNavToggle, setMobileNavToggle] = useState(true);
+    console.log(mobileNavToggle);
+
+    const toggleMobileNavbarFunc = () => setMobileNavToggle(!mobileNavToggle)
+
     return (
-        <div className="mobile-navigation-container">
+        <>
+        <div className='hamburger-icon' onClick={toggleMobileNavbarFunc}>
+        <div className='line-one'></div>
+        <div className='line-two'></div>
+        <div className='line-three'></div>
+        </div>
+        <div
+            className={mobileNavToggle ? "mobile-navigation-container" : "no-display"}
+        >
             <div className="website-title-container">
                 <h1>
                     <Link className="nav-link" to="/">
@@ -41,6 +55,7 @@ const MobileNavigation = () => {
                 </ul>
             </div>
         </div>
+        </>
     );
 };
 
