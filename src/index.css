@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ***** RESPONSIVE STYLING ***** */
+@media screen and (max-width: 965px) {
+  .search-box-container {
+    display: none;
+  }
+}
