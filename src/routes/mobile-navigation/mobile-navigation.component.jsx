@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 const MobileNavigation = () => {
-    const [mobileNavToggle, setMobileNavToggle] = useState(true);
+    const [mobileNavToggle, setMobileNavToggle] = useState(false);
     console.log(mobileNavToggle);
 
     const toggleMobileNavbarFunc = () => setMobileNavToggle(!mobileNavToggle)

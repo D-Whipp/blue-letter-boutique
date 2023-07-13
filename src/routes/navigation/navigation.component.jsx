@@ -1,5 +1,7 @@
 import './navigation.styles.css';
 
+import MobileNavigation from '../mobile-navigation/mobile-navigation.component';
+
 import CartIcon from '../../components/cart-icon/cart-icon.component';
 import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
 
@@ -44,6 +46,9 @@ const Navigation = () => {
     };
 
     return (
+        <> 
+        <MobileNavigation />
+
         <div className="address-bar-container">
             <div className="website-title-container">
                 <h1>
@@ -114,6 +119,7 @@ const Navigation = () => {
             <CartIcon />
             {isCartOpen && <CartDropdown />}
         </div>
+        </>
     );
 };
 

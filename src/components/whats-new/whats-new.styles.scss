@@ -26,3 +26,10 @@
     row-gap: 50px;
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 965px) {
+    .whats-new-container {
+        margin-top: 0px;
+    }
+}

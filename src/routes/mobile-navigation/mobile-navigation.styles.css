@@ -5,8 +5,8 @@
   height: 30px;
   width: 30px;
   z-index: 10;
-  right: 27px;
-  top: 15px;
+  right: 57px;
+  top: 11px;
 }
 .hamburger-icon .line-one {
   background-color: black;
@@ -36,10 +36,13 @@
 
 .mobile-navigation-container {
   background-color: white;
+  border: 2px solid blue;
+  border-radius: 15px;
   color: blue;
   position: absolute;
   z-index: 10;
-  right: 20px;
+  margin: 0px auto;
+  top: 60px;
 }
 .mobile-navigation-container .website-title-container h1 {
   font-style: oblique;

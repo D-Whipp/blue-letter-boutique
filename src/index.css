@@ -18,3 +18,20 @@ code {
     display: none;
   }
 }
+
+/* *** Hides Hamburger Menu for screens bigger than 900px *** */
+@media screen and (min-width: 901px) {
+  .hamburger-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .address-bar-container {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+}

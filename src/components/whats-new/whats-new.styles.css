@@ -22,4 +22,10 @@
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 50px;
+}
+
+@media screen and (max-width: 965px) {
+  .whats-new-container {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=whats-new.styles.css.map */

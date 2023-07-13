@@ -2,7 +2,6 @@ import './home.styles.css';
 
 import Promotion from '../promotion/promotion.component';
 import Navigation from '../navigation/navigation.component';
-import MobileNavigation from '../mobile-navigation/mobile-navigation.component';
 import Jumbotron from '../jumbotron/jumbotron.component';
 import CurrentTrends from '../current-trends/current-trends.component';
 import Categories from '../categories/categories.component';
@@ -14,7 +13,6 @@ const Home = () => {
         <>
             <Promotion />
             <Navigation />
-            <MobileNavigation />
             <Jumbotron />
             <CurrentTrends />
             <Categories />

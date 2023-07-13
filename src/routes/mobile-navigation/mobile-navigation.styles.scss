@@ -5,8 +5,8 @@
     height: 30px;
     width: 30px;
     z-index: 10;
-    right: 27px;
-    top: 15px;
+    right: 57px;
+    top: 11px;
     // opacity: 0;
 
     .line-one {
@@ -39,11 +39,14 @@
 
 .mobile-navigation-container {
     background-color: white;
+    border: 2px solid blue;
+    border-radius: 15px;
     color: blue;
-    // display: none;
     position: absolute;
     z-index: 10;
-    right: 20px;
+    // right: 20px;
+    margin: 0px auto;
+    top: 60px;
 
     .website-title-container {
         h1 {
