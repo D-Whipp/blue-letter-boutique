@@ -41,10 +41,12 @@ const MobileNavigation = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/pages/dresses">DRESSES</Link>
+                            <Link to="/pages/shop/dresses">
+                                DRESSES
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/pages/two piece">
+                            <Link to="/pages/shop/two piece">
                                 TWO PIECE
                             </Link>
                         </li>
