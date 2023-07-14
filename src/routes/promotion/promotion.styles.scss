@@ -18,3 +18,16 @@
         margin: 2px 0px 0px 0px;
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 975px) {
+    .sales-bar-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sales-bar-container {
+        width: 100%;
+    }
+}

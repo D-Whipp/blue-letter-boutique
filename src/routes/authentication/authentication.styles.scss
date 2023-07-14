@@ -22,6 +22,8 @@
                 height: 550px;
                 width: 350px;
 
+                // display: block;
+
                 h2 {
                     font-size: 24px;
                     font-style: italic;
@@ -49,6 +51,34 @@
                 text-align: center;
                 height: 550px;
                 width: 400px;
+
+                // display: block;
+            }
+        }
+    }
+}
+
+// ***** RESPONSIVE STYLING *****
+.authentication-container {
+    height: 100%;
+    margin-top: 0px;
+
+    .authentication-text-container {
+        
+        .authentication-methods-container {
+            display: block;
+            // margin: 5px auto;
+            // text-align: center;
+            // align-items: center;
+            // justify-content: center;
+            // margin: 0px auto;
+
+            .sign-in-method {
+                margin: 0px auto 15px auto;
+            }
+
+            .sign-up-method {
+                margin: 20px auto 0px auto;
             }
         }
     }

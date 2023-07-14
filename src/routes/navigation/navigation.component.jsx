@@ -46,79 +46,85 @@ const Navigation = () => {
     };
 
     return (
-        <> 
-        <MobileNavigation />
+        <>
+            <MobileNavigation />
 
-        <div className="address-bar-container">
-            <div className="website-title-container">
-                <h1>
-                    <Link className="nav-link" to="/">
-                        Blue Letter Boutique
-                    </Link>
-                </h1>
-            </div>
-            <div className="navigation-container">
-                <ul>
-                    <li>
-                        <Link to="/pages/whats-new">WHAT'S NEW</Link>
-                    </li>
-                    <li>
-                        <Link to="/pages/shop/dresses">DRESSES</Link>
-                    </li>
-                    <li>
-                        <Link to="/pages/shop/two piece">
-                            TWO PIECE
+            <div className="address-bar-container">
+                <div className="website-title-container">
+                    <h1>
+                        <Link className="nav-link" to="/">
+                            Blue Letter Boutique
                         </Link>
-                    </li>
-                    <li>
-                        <Link to="/pages/shop/shirts">SHIRTS</Link>
-                    </li>
-                    <li>
-                        <Link to="/pages/shop/pants">PANTS</Link>
-                    </li>
-                    <li>
-                        <Link to="/pages/shop/hats">HATS</Link>
-                    </li>
-                    <li>
-                        <Link to="/pages/shop/shoes">SHOES</Link>
-                    </li>
-                    <li>
-                        <Link to="/pages/shop/sales">SALE</Link>
-                    </li>
-                </ul>
-            </div>
+                    </h1>
+                </div>
+                <div className="navigation-container">
+                    <ul>
+                        <li>
+                            <Link to="/pages/whats-new">
+                                WHAT'S NEW
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/pages/shop/dresses">
+                                DRESSES
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/pages/shop/two piece">
+                                TWO PIECE
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/pages/shop/shirts">
+                                SHIRTS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/pages/shop/pants">PANTS</Link>
+                        </li>
+                        <li>
+                            <Link to="/pages/shop/hats">HATS</Link>
+                        </li>
+                        <li>
+                            <Link to="/pages/shop/shoes">SHOES</Link>
+                        </li>
+                        <li>
+                            <Link to="/pages/shop/sales">SALE</Link>
+                        </li>
+                    </ul>
+                </div>
 
-            <div className="search-box-container">
-                <input
-                    className="search-box"
-                    type="search"
-                    placeholder="I'm looking for..."
-                    onChange={onSearchChange}
-                />
-            </div>
+                <div className="search-box-container">
+                    <input
+                        className="search-box"
+                        type="search"
+                        placeholder="I'm looking for..."
+                        onChange={onSearchChange}
+                    />
+                </div>
 
-            {currentUser ? (
-                <span
-                    className="my-account-container"
-                    onClick={signOutUser}
-                >
-                    SIGN OUT
-                </span>
-            ) : (
-                <Link
-                    className="my-account-container"
-                    to="/pages/authentication"
-                >
-                    SIGN IN
-                </Link>
-            )}
+                {currentUser ? (
+                    <span
+                        className="my-account-container"
+                        onClick={signOutUser}
+                    >
+                        SIGN OUT
+                    </span>
+                ) : (
+                    <Link
+                        className="my-account-container"
+                        to="/pages/authentication"
+                    >
+                        SIGN IN
+                    </Link>
+                )}
 
-            <div className="shop-icon-container">
-                <Link to="/pages/shop">SHOP</Link>
+                <div className="shop-icon-container">
+                    <Link to="/pages/shop">SHOP</Link>
+                </div>
+                <CartIcon />
+                {isCartOpen && <CartDropdown />}
             </div>
-            <CartIcon />
-            {isCartOpen && <CartDropdown />}
-        </div>
         </>
     );
 };
