@@ -65,6 +65,7 @@
   .links-and-social-media .misc-links h3 {
     color: black;
     margin-bottom: 10px;
+    margin-left: 8px;
   }
   .links-and-social-media .misc-links .quick-access-link {
     display: inline-block;
@@ -74,6 +75,7 @@
   .links-and-social-media .quick-access h3 {
     color: black;
     margin-bottom: 10px;
+    margin-left: 8px;
   }
   .links-and-social-media .quick-access .quick-access-link {
     display: inline-block;
