@@ -24,7 +24,7 @@ const Navigation = () => {
             event.target.value.toLocaleLowerCase();
         setSearchField(searchFieldString);
 
-        if (searchField === 'dresses' || searchField === 'dres') {
+        if (searchField === 'dres') {
             navigate('/pages/shop/dresses');
         } else if (searchField === 'gift') {
             navigate('/pages/shop/gift-card');
@@ -40,7 +40,7 @@ const Navigation = () => {
             navigate('/pages/shop/shoes');
         } else if (searchField === 'two') {
             navigate('/pages/shop/two piece');
-        } else if (searchField === 'wha') {
+        } else if (searchField === 'wha' || searchField === 'ne') {
             navigate('/pages/whats-new');
         }
     };

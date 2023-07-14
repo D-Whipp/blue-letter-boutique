@@ -59,6 +59,8 @@
 }
 
 // ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 975px) {
+
 .authentication-container {
     height: 100%;
     margin-top: 0px;
@@ -82,4 +84,5 @@
             }
         }
     }
+}
 }
