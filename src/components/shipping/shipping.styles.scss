@@ -49,3 +49,15 @@
         }
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 900px) {
+    .shipping-container {
+        margin-top: 0px;
+        padding-top: 20px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+}

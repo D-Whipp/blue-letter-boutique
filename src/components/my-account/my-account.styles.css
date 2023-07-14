@@ -42,4 +42,10 @@
 .my-account-container .login-needed button:hover {
   background-color: blue;
   color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .my-account-container {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=my-account.styles.css.map */

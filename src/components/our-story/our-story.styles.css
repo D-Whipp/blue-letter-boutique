@@ -40,4 +40,16 @@
   height: 450px;
   width: 300px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .our-story-container {
+    margin-top: 0px;
+  }
+  .our-story-container .our-story-text-container h2 {
+    margin-top: 10px;
+  }
+  .our-story-container .our-story-text-container h3 {
+    margin: 10px auto;
+  }
 }/*# sourceMappingURL=our-story.styles.css.map */

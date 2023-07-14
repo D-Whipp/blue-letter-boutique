@@ -40,4 +40,11 @@
   color: blue;
   font-style: italic;
   text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .foundations-container {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
 }/*# sourceMappingURL=foundations.styles.css.map */

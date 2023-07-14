@@ -32,3 +32,16 @@
         }
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 900px) {
+    .privacy-and-security-container {
+        margin-top: 0px;
+
+        .privacy-and-policy-text-container {
+            h3 {
+                margin: 15px 0px;
+            }
+        }
+    }
+}

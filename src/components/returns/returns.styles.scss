@@ -39,3 +39,11 @@
 .sales-bar-container {
     font-size: 12px;
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 900px) {
+    .returns-container {
+        margin-top: 0px;
+        padding: 0px;
+    }
+}

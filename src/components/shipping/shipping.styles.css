@@ -39,4 +39,14 @@
 }
 .shipping-container .shipping-text-container p .blue-text {
   color: blue;
+}
+
+@media screen and (max-width: 900px) {
+  .shipping-container {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+  .shipping-container h2 {
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=shipping.styles.css.map */

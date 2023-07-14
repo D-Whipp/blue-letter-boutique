@@ -41,5 +41,18 @@
             }
         }
     }
+}
 
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 900px) {
+    .terms-of-use-container {
+        margin-top: 0px;
+        padding: 15px 0px;
+
+        .terms-of-use-text-container {
+            h2 {
+                margin-bottom: 10px;
+            }
+        }
+    }
 }

@@ -79,3 +79,10 @@
         }
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 900px) {
+    .faq-container {
+        margin-top: 0px;
+    }
+}

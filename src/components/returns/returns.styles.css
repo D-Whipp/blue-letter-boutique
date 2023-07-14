@@ -33,4 +33,11 @@
 
 .sales-bar-container {
   font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .returns-container {
+    margin-top: 0px;
+    padding: 0px;
+  }
 }/*# sourceMappingURL=returns.styles.css.map */

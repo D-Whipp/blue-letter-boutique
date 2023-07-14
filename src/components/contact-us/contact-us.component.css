@@ -28,4 +28,10 @@
 }
 .contact-us-container .contact-us-form-container div {
   margin: 25px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-us-container {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=contact-us.component.css.map */

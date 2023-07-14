@@ -26,4 +26,13 @@
 .privacy-and-security-container .privacy-and-policy-text-container p {
   line-height: 1.4;
   margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .privacy-and-security-container {
+    margin-top: 0px;
+  }
+  .privacy-and-security-container .privacy-and-policy-text-container h3 {
+    margin: 15px 0px;
+  }
 }/*# sourceMappingURL=privacy-and-security.styles.css.map */

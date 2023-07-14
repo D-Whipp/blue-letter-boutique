@@ -60,4 +60,10 @@
 }
 .faq-container .faq-text-container details .level-one-details-container .important-notice {
   color: blue;
+}
+
+@media screen and (max-width: 900px) {
+  .faq-container {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=faq.styles.css.map */

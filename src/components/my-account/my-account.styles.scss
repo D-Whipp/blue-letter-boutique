@@ -58,3 +58,10 @@
         }
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 900px) {
+    .my-account-container { 
+        margin-top: 0px;
+    }
+}

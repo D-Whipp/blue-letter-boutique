@@ -33,4 +33,14 @@
 }
 .terms-of-use-container .terms-of-use-text-container .text-section-container p span {
   color: blue;
+}
+
+@media screen and (max-width: 900px) {
+  .terms-of-use-container {
+    margin-top: 0px;
+    padding: 15px 0px;
+  }
+  .terms-of-use-container .terms-of-use-text-container h2 {
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=terms-of-use.styles.css.map */
