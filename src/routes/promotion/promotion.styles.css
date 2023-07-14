@@ -22,10 +22,7 @@
   }
 }
 @media screen and (max-width: 575px) {
-  body {
-    width: 413px;
-  }
   .sales-bar-container {
-    width: 413px;
+    width: 100%;
   }
 }/*# sourceMappingURL=promotion.styles.css.map */

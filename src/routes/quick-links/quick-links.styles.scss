@@ -68,3 +68,41 @@
         }
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 400px) {
+    .links-and-social-media {
+        display: block;
+
+        .social-media-symbols {
+            margin-bottom: 15px;
+        }
+
+        .misc-links {
+            // display: inline;
+            // margin: 15px 0px;
+            h3 {
+                color: black;
+                margin-bottom: 10px;
+            }
+
+            .quick-access-link {
+                display: inline-block;
+                margin: 0px 10px 15px 10px;
+                font-weight: bold;
+            }
+        }
+
+        .quick-access {
+            h3 {
+                color: black;
+                margin-bottom: 10px;
+            }
+
+            .quick-access-link {
+                display: inline-block;
+                margin: 0px 10px 15px 10px;
+                font-weight: bold;            }
+        }
+    }
+}

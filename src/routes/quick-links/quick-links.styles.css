@@ -53,4 +53,31 @@
 }
 .links-and-social-media .quick-access .quick-access-link:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .links-and-social-media {
+    display: block;
+  }
+  .links-and-social-media .social-media-symbols {
+    margin-bottom: 15px;
+  }
+  .links-and-social-media .misc-links h3 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  .links-and-social-media .misc-links .quick-access-link {
+    display: inline-block;
+    margin: 0px 10px 15px 10px;
+    font-weight: bold;
+  }
+  .links-and-social-media .quick-access h3 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  .links-and-social-media .quick-access .quick-access-link {
+    display: inline-block;
+    margin: 0px 10px 15px 10px;
+    font-weight: bold;
+  }
 }/*# sourceMappingURL=quick-links.styles.css.map */
