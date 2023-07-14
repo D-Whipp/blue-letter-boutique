@@ -13,4 +13,21 @@
   grid-template-columns: repeat(4, 1fr);
   -moz-column-gap: 20px;
        column-gap: 20px;
+}
+
+@media screen and (max-width: 975px) {
+  .category-preview-container {
+    text-align: center;
+  }
+  .category-preview-container .title {
+    font-size: 33px;
+  }
+  .category-preview-container .preview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 675px) {
+  .category-preview-container .preview {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=category-preview.styles.css.map */

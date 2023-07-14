@@ -61,7 +61,7 @@
             .nav-link {
                 color: blue;
                 font-family: Gabriola, 'Times New Roman', sans-serif;
-                font-size: 2rem;
+                font-size: 36px;
                 font-weight: lighter;
                 text-decoration: none;
         }
@@ -81,6 +81,27 @@
             li {
                 margin: 10px 0px;
             }
+        }
+    }
+}
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 400px) {
+    .hamburger-icon {
+        right: -15px;
+    }
+
+    .website-title-container {
+        h1 {
+            .nav-link {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .mobile-navigation-container {
+        .mobile-navigation-links {
+            font-size: 16px;
         }
     }
 }

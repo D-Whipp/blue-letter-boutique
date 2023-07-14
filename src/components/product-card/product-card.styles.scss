@@ -75,3 +75,16 @@
 
       }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 575px) {
+  .product-card-container {
+    .product-card {
+      width: 300px;
+
+      img {
+        width: 300px;
+      }
+    }
+  }
+}

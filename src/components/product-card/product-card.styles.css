@@ -59,4 +59,13 @@
   z-index: 0;
   transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   box-shadow: 0px 0px black;
+}
+
+@media screen and (max-width: 575px) {
+  .product-card-container .product-card {
+    width: 300px;
+  }
+  .product-card-container .product-card img {
+    width: 300px;
+  }
 }/*# sourceMappingURL=product-card.styles.css.map */

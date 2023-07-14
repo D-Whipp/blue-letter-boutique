@@ -6,4 +6,10 @@
   position: relative;
   left: 50%;
   translate: -50%;
+}
+
+@media screen and (max-width: 975px) {
+  .categories-preview-container {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=categories-preview.styles.css.map */

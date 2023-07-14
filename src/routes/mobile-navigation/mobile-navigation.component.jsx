@@ -65,6 +65,9 @@ const MobileNavigation = () => {
                         <li>
                             <Link to="/pages/shop/sales">SALE</Link>
                         </li>
+                        <li>
+                            <Link to="/pages/shop">SHOP</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
