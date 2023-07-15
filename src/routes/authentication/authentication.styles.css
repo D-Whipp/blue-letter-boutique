@@ -46,6 +46,21 @@
   width: 400px;
 }
 
+@media screen and (max-width: 400px) {
+  .authentication-container {
+    height: 100%;
+    margin-top: 0px;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container {
+    display: block;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container .sign-in-method {
+    width: 100%;
+  }
+  .authentication-container .authentication-text-container .authentication-methods-container .sign-up-method {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 975px) {
   .authentication-container {
     height: 100%;

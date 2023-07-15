@@ -22,8 +22,6 @@
                 height: 550px;
                 width: 350px;
 
-                // display: block;
-
                 h2 {
                     font-size: 24px;
                     font-style: italic;
@@ -59,8 +57,7 @@
 }
 
 // ***** RESPONSIVE STYLING *****
-@media screen and (max-width: 975px) {
-
+@media screen and (max-width: 400px) {
 .authentication-container {
     height: 100%;
     margin-top: 0px;
@@ -69,11 +66,28 @@
         
         .authentication-methods-container {
             display: block;
-            // margin: 5px auto;
-            // text-align: center;
-            // align-items: center;
-            // justify-content: center;
-            // margin: 0px auto;
+
+            .sign-in-method {
+                width: 100%;
+            }
+
+            .sign-up-method {
+                width: 100%;
+            }
+        }
+    }
+}    
+}
+
+@media screen and (max-width: 975px) {
+.authentication-container {
+    height: 100%;
+    margin-top: 0px;
+
+    .authentication-text-container {
+        
+        .authentication-methods-container {
+            display: block;
 
             .sign-in-method {
                 margin: 0px auto 15px auto;
