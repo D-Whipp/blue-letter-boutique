@@ -76,3 +76,23 @@
         }
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 400px) {
+    .categories-container {
+        .category-items-container {
+            display: block;
+
+            .category-item {
+                width: 100%;
+                height: 400px;
+                margin: 15px 0px;
+
+                p {
+                    font-size: 54px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

@@ -68,3 +68,23 @@
         cursor: pointer;
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 400px) {
+    .jumbotron-container {
+        height: 300px;
+
+        .jumbotron-text {
+            h2 {
+                color: white;
+                font-size: 55px;
+            }
+
+            p {
+                font-size: 32px;
+                width: inherit;
+                line-height: 1.65;
+            }
+        }
+    }
+}

@@ -42,4 +42,19 @@
 }
 .jumbotron-container .jumbotron-text p:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .jumbotron-container {
+    height: 300px;
+  }
+  .jumbotron-container .jumbotron-text h2 {
+    color: white;
+    font-size: 55px;
+  }
+  .jumbotron-container .jumbotron-text p {
+    font-size: 32px;
+    width: inherit;
+    line-height: 1.65;
+  }
 }/*# sourceMappingURL=jumbotron.styles.css.map */

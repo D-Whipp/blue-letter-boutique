@@ -82,3 +82,22 @@
      }
     }
 }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 400px) {
+    .trends-container {
+        .trends-image-container {
+            display: block;
+
+            .left-trend-container {
+                width: 100%;
+                margin-left: 0px;
+                margin-bottom: 10px;
+            }
+
+            .right-trend-container {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -61,4 +61,18 @@
 }
 .trends-container .trends-image-container .right-trend-container:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .trends-container .trends-image-container {
+    display: block;
+  }
+  .trends-container .trends-image-container .left-trend-container {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .trends-container .trends-image-container .right-trend-container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=current-trends.styles.css.map */

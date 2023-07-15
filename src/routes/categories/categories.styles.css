@@ -60,4 +60,19 @@
 }
 .categories-container .category-items-container .shoes-image {
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shoes/boots-two.jpg?updatedAt=1683945452561");
+}
+
+@media screen and (max-width: 400px) {
+  .categories-container .category-items-container {
+    display: block;
+  }
+  .categories-container .category-items-container .category-item {
+    width: 100%;
+    height: 400px;
+    margin: 15px 0px;
+  }
+  .categories-container .category-items-container .category-item p {
+    font-size: 54px;
+    margin-top: 5px;
+  }
 }/*# sourceMappingURL=categories.styles.css.map */
