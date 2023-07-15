@@ -5,7 +5,8 @@ import { UserContext } from '../contexts/user.context';
 
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-// import { getAuth, updateProfile } from 'firebase/auth';
+
+import { signOutUser } from '../../utils/firebase/firebase.utils';
 
 import Promotion from '../../routes/promotion/promotion.component';
 import Navigation from '../../routes/navigation/navigation.component';
@@ -19,7 +20,6 @@ const MyAccount = () => {
     useEffect(() => {
         setUser(currentUser);
     }, [currentUser]);
-
 
     return (
         <>
@@ -50,6 +50,9 @@ const MyAccount = () => {
                                 <Link to="/pages/contact-us">
                                     Need Help?
                                 </Link>
+                            </button>
+                            <button onClick={signOutUser}>
+                                Sign Out
                             </button>
                         </div>
                     </div>
