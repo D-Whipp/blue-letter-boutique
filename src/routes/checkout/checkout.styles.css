@@ -33,7 +33,7 @@
   font-size: 36px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .checkout-container .checkout-content {
     width: 85%;
   }

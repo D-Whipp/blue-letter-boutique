@@ -24,7 +24,7 @@
   translate: -50%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .category-title {
     margin-top: 0px;
   }

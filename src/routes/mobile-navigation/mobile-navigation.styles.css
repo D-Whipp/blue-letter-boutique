@@ -72,7 +72,7 @@
   margin: 10px 0px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .hamburger-icon {
     right: 10px;
   }

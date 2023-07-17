@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .jumbotron-container {
     height: 300px;
   }

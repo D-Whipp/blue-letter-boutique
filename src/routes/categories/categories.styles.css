@@ -62,7 +62,7 @@
   background-image: url("https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shoes/boots-two.jpg?updatedAt=1683945452561");
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .categories-container .category-items-container {
     display: block;
   }
