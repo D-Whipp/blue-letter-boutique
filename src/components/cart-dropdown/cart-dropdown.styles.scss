@@ -8,8 +8,6 @@
   border: 2px solid blue;
   background-color: white;
 
-  // transform: rotate(-1deg);
-
   position: absolute;
   top: 65px;
   right: 30px;
@@ -47,3 +45,9 @@
     }
 }
   
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 400px) {
+  .cart-dropdown-container {
+    right: 65px;
+  }
+}

@@ -16,4 +16,15 @@
   font-size: 10px;
   font-weight: bold;
   bottom: 12px;
+}
+
+@media screen and (max-width: 400px) {
+  .cart-icon-container .shopping-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .cart-icon-container .item-count {
+    font-size: 25px;
+    bottom: -1px;
+  }
 }/*# sourceMappingURL=cart-icon.styles.css.map */

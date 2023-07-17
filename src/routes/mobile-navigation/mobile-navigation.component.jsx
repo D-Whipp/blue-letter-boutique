@@ -1,7 +1,13 @@
 import './mobile-navigation.styles.css';
 
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+
+// CART DROPDOWN IMPORTS
+import CartIcon from '../../components/cart-icon/cart-icon.component';
+import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
+// import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
+import { CartContext } from '../../components/contexts/cart.context';
 
 const MobileNavigation = () => {
     const [mobileNavToggle, setMobileNavToggle] = useState(false);
@@ -9,8 +15,17 @@ const MobileNavigation = () => {
     const toggleMobileNavbarFunc = () =>
         setMobileNavToggle(!mobileNavToggle);
 
+    // CART DROPDOWN CODE
+    const { isCartOpen } = useContext(CartContext);
+
     return (
         <>
+            {/*<div className="shop-icon-container">
+                <Link to="/pages/shop">SHOP</Link>
+    </div>*/}
+            <CartIcon />
+            {isCartOpen && <CartDropdown />}
+
             <div
                 className="hamburger-icon"
                 onClick={toggleMobileNavbarFunc}

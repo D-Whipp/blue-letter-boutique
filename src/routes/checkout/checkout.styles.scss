@@ -39,3 +39,16 @@
     }
   }
   
+  // ***** RESPONSIVE STYLING *****
+  @media  screen and (max-width: 400px) {
+    .checkout-container {
+      .checkout-content {
+        width: 85%;
+      }
+
+      .checkout-header {
+        font-size: 13px;
+        // font-weight: bold;
+      }
+    }
+  }

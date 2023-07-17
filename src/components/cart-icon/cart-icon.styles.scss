@@ -19,4 +19,20 @@
       bottom: 12px;
     }
   }
+
+// ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 400px) {
+  .cart-icon-container {
+    
+    .shopping-icon {
+      width: 45px;
+      height: 45px;
+    }
+
+    .item-count {
+      font-size: 25px;
+      bottom: -1px;
+    }
+  }
+}
   
