@@ -27,5 +27,9 @@
 @media screen and (max-width: 965px) {
   .whats-new-container {
     margin-top: 0px;
+    padding-left: 0px;
+  }
+  .whats-new-container .whats-new-content-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=whats-new.styles.css.map */

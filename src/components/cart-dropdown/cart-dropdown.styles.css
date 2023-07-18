@@ -44,4 +44,10 @@
   .cart-dropdown-container {
     right: 65px;
   }
+}
+@media screen and (max-width: 900px) {
+  .cart-dropdown-container {
+    right: 50%;
+    transform: translate(50%);
+  }
 }/*# sourceMappingURL=cart-dropdown.styles.css.map */

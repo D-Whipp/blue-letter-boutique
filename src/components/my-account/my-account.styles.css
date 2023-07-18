@@ -1,7 +1,7 @@
 .my-account-container {
   border-top: 2px solid blue;
   color: blue;
-  height: 460px;
+  min-height: 460px;
   margin: 15px auto 0px auto;
   padding: 25px;
   text-align: center;
