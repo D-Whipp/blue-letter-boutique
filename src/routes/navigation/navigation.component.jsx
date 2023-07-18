@@ -105,14 +105,14 @@ const Navigation = () => {
 
                 {currentUser ? (
                     <span
-                        className="my-account-container"
+                        className="authen-button"
                         onClick={signOutUser}
                     >
                         SIGN OUT
                     </span>
                 ) : (
                     <Link
-                        className="my-account-container"
+                        className="authen-button"
                         to="/pages/authentication"
                     >
                         SIGN IN

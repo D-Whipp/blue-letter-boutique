@@ -69,7 +69,7 @@
 .address-bar-container .search-box-container:hover {
   opacity: 1;
 }
-.address-bar-container .my-account-container {
+.address-bar-container .authen-button {
   border-top: none;
   color: black;
   font-size: 14px;
@@ -77,9 +77,9 @@
   font-weight: bold;
   margin: 16px 0px 0px 0px;
   padding: 0px;
-  max-height: 22px;
+  height: 20px;
 }
-.address-bar-container .my-account-container:hover {
+.address-bar-container .authen-button:hover {
   cursor: pointer;
 }
 .address-bar-container .shop-icon-container {

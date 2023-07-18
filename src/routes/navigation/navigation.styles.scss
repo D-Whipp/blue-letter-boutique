@@ -83,7 +83,7 @@
         opacity: 1;
     }
 
-    .my-account-container {
+    .authen-button {
         border-top: none;
         color: black;
         font-size: 14px;
@@ -91,10 +91,10 @@
         font-weight: bold;
         margin: 16px 0px 0px 0px;
         padding: 0px;
-        max-height: 22px;
+        height: 20px;        
     }
 
-    .my-account-container:hover {
+    .authen-button:hover {
         cursor: pointer;
     }
 
