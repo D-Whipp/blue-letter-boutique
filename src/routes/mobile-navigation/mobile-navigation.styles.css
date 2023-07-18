@@ -82,4 +82,9 @@
   .mobile-navigation-container .mobile-navigation-links {
     font-size: 16px;
   }
+}
+@media screen and (min-width: 901px) {
+  .mobile-navbar-dropdown-container {
+    display: none;
+  }
 }/*# sourceMappingURL=mobile-navigation.styles.css.map */

@@ -20,11 +20,10 @@ const MobileNavigation = () => {
 
     return (
         <>
-            {/*<div className="shop-icon-container">
-                <Link to="/pages/shop">SHOP</Link>
-    </div>*/}
+            <div className='mobile-navbar-dropdown-container'>
             <CartIcon />
             {isCartOpen && <CartDropdown />}
+            </div>
 
             <div
                 className="hamburger-icon"
