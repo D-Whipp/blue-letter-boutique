@@ -1,6 +1,8 @@
 import './payment-form.styles.css';
 
-import {useState} from 'react';
+import { useState, useContext } from 'react';
+import { CartContext } from '../contexts/cart.context';
+import { UserContext } from '../contexts/user.context';
 
 import {
     CardElement,
@@ -11,6 +13,11 @@ import {
 const PaymentForm = () => {
     const stripe = useStripe();
     const elements = useElements();
+    const { cartTotal } = useContext(CartContext);
+    const { currentUser } = useContext(UserContext);
+    const amount = cartTotal;
+    const [isProcessingPayment, setIsProcessingPayment] =
+        useState(false);
 
     const paymentHandler = async (e) => {
         e.preventDefault();
@@ -19,6 +26,8 @@ const PaymentForm = () => {
             return;
         }
 
+        setIsProcessingPayment(true);
+
         const response = await fetch(
             '/.netlify/functions/create-payment-intent',
             {
@@ -26,7 +35,7 @@ const PaymentForm = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ amount: 10000 }),
+                body: JSON.stringify({ amount: amount * 100 }),
             }
         ).then((response) => response.json());
 
@@ -34,19 +43,21 @@ const PaymentForm = () => {
             paymentIntent: { client_secret },
         } = response;
 
-        console.log('Client Secret: ', client_secret);
-
         const paymentResult = await stripe.confirmCardPayment(
             client_secret,
             {
                 payment_method: {
                     card: elements.getElement(CardElement),
                     billing_details: {
-                        name: 'David Whipple',
+                        name: currentUser
+                            ? currentUser.displayName
+                            : 'Guest',
                     },
                 },
             }
         );
+
+        setIsProcessingPayment(false);
 
         if (paymentResult.error) {
             alert(paymentResult.error);
@@ -61,7 +72,16 @@ const PaymentForm = () => {
         <div className="payment-form-container">
             <h2>Credit Card Payment: </h2>
             <CardElement />
-            <button onClick={paymentHandler}>Pay Now</button>
+            {isProcessingPayment ? (
+                <button
+                    disabled={isProcessingPayment}
+                    className="spinner-button"
+                >
+                    ...
+                </button>
+            ) : (
+                <button onClick={paymentHandler}>Pay Now</button>
+            )}
         </div>
     );
 };
