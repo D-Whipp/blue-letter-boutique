@@ -1,3 +1,19 @@
 .payment-form-container {
-  color: blue;
+  max-width: 300px;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+}
+.payment-form-container h2 {
+  margin: 15px auto;
+}
+.payment-form-container button {
+  border: 2px solid blue;
+  border-radius: 15px;
+  margin: 15px auto;
+  padding: 10px 20px;
+}
+.payment-form-container button:hover {
+  color: white;
+  background-color: blue;
 }/*# sourceMappingURL=payment-form.styles.css.map */
