@@ -14,14 +14,20 @@ code {
 
 
 /* ***** RESPONSIVE STYLING ***** */
-@media screen and (max-width: 975px) {
+@media screen and (min-width: 576px) and (max-width: 975px) {
   body {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 420px) and (max-width: 575px) {
   body {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  body {
+    width: 100vw;
   }
 }

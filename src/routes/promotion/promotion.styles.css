@@ -25,4 +25,9 @@
   .sales-bar-container {
     width: 100%;
   }
+}
+@media screen and (max-width: 415px) {
+  .sales-bar-container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=promotion.styles.css.map */

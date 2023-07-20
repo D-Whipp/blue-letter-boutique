@@ -46,7 +46,13 @@
 }
   
 // ***** RESPONSIVE STYLING *****
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 417px) {
+  .cart-dropdown-container {
+    right: 5px;
+  }
+}
+
+@media screen and (min-width: 418px) and (max-width: 450px) {
   .cart-dropdown-container {
     right: 65px;
   }
