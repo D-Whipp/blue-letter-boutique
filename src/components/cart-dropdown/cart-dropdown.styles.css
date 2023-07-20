@@ -40,9 +40,10 @@
   background-color: white;
 }
 
-@media screen and (max-width: 417px) {
+@media screen and (max-width: 900px) {
   .cart-dropdown-container {
-    right: 5px;
+    right: 50%;
+    transform: translate(50%);
   }
 }
 @media screen and (min-width: 418px) and (max-width: 450px) {
@@ -50,9 +51,8 @@
     right: 65px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 417px) {
   .cart-dropdown-container {
-    right: 50%;
-    transform: translate(50%);
+    margin: 0px auto;
   }
 }/*# sourceMappingURL=cart-dropdown.styles.css.map */

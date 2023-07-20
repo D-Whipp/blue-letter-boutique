@@ -72,12 +72,12 @@
   margin: 10px 0px;
 }
 
-@media screen and (max-width: 416px) {
-  .hamburger-icon {
-    right: 25px;
+@media screen and (min-width: 901px) {
+  .mobile-navbar-dropdown-container {
+    display: none;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 418px) and (max-width: 450px) {
   .hamburger-icon {
     right: 10px;
   }
@@ -88,8 +88,8 @@
     font-size: 16px;
   }
 }
-@media screen and (min-width: 901px) {
-  .mobile-navbar-dropdown-container {
-    display: none;
+@media screen and (max-width: 417px) {
+  .hamburger-icon {
+    right: 25px;
   }
 }/*# sourceMappingURL=mobile-navigation.styles.css.map */

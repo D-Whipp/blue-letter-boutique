@@ -19,6 +19,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .cart-icon-container {
+    left: 25px;
+  }
   .cart-icon-container .shopping-icon {
     width: 45px;
     height: 45px;

@@ -46,9 +46,10 @@
 }
   
 // ***** RESPONSIVE STYLING *****
-@media screen and (max-width: 417px) {
+@media screen and (max-width: 900px) {
   .cart-dropdown-container {
-    right: 5px;
+    right: 50%;
+    transform: translate(50%);
   }
 }
 
@@ -58,9 +59,9 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 417px) {
   .cart-dropdown-container {
-    right: 50%;
-    transform: translate(50%);
+    margin: 0px auto;
+    // left: -40px;
   }
 }
