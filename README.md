@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Blue Letter Boutique
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Front End SPA Web Application
 
-## Available Scripts
+![app-screenshot](./src/assets/app-screenshot/Blue-Letter-Boutique.png)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Blue Letter Boutique is an E-commerce Single Page Application where users can browse and purchase a variety of clothing items.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   [Blue Letter Boutique](#blue-letter-boutique)
+    -   [Front End SPA Web Application](#front-end-spa-web-application)
+    -   [Description](#description)
+    -   [Table of Contents](#table-of-contents)
+    -   [Purpose](#purpose)
+    -   [Usage](#usage)
+        -   [IMPORTANT](#important)
+    -   [License](#license)
+    -   [About](#about)
+    -   [Badges](#badges)
 
-### `npm test`
+## Purpose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I need to advance my skills with Front End Technologies so I can be a more enticing candidate when potential employers are considering adding a member to their team. I completed the [University of Arizona's Coding Bootcamp](./src/assets/app-screenshot/Full-Stack-Web-Development-University-of-Arizona-Badging.png) and have been completing courses on Udemy/LinkedIn Learning (to keep up my skills) while looking for a job. Blue Letter Boutique, inspired by [Red Dress](https://www.reddress.com/), was built to show off what I've learned so far.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Blue Letter Boutique](https://glittering-brigadeiros-85868e.netlify.app/) (referred to as BLB) is an E-commerce website and behaves as such. Click the link and you'll be taken to BLB's website where you can:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   1. Create an account
+-   2. Sign In if you have an existing account
+-   3. Contact Customer support through email
+-   4. Reset user password if needed
+-   5. Browse multiple categories of clothing
+-   6. Add items to a cart
+-   7. View the cart
+-   8. TEST purchase the cart items using Stripes test card number
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### IMPORTANT
 
-### `npm run eject`
+I DID NOT setup this website for users to make actual purchases. Parting with money is THE most important interaction a user will have with an E-commerce site. As this is NOT an actual online store I have NOT turned on actual payments. \
+If you wish to test the Credit Card component enter in \
+4242 4242 4242 4242 for the Card number. \
+Set the expiration date to anytime in the FUTURE. \
+The CVV and Zip Code can be any number. \
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copyright (c) [2023] [David Whipple]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## About
 
-### Code Splitting
+Hello, my name is David \
+You can email me at dwhipp88@gmail.com \
+You can view my [github](https://github.com/D-Whipp). \
+Check out my [portfolio](http://mighty-brook-32674.herokuapp.com/). \
+Let's make a connection! [LinkedIn](https://www.linkedin.com/in/david-w-079841213/) \
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Badges
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![stable build](https://img.shields.io/badge/build-stable-darkblue)
+![javascript](https://img.shields.io/badge/language-javascript-darkblue)
+![frontend app](https://img.shields.io/badge/frontend-application-darkblue)
+![react routes](https://img.shields.io/badge/react-routes-darkblue)
+![spa app](https://img.shields.io/badge/spa-app-darkblue)
+![single page app](https://img.shields.io/badge/app-SinglePage-darkblue)
+![ecommerce](https://img.shields.io/badge/website-ecommerce-darkblue)
+![netlify deployment](https://img.shields.io/badge/netlify-deployment-darkblue)
