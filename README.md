@@ -17,6 +17,7 @@ Blue Letter Boutique is an E-commerce Single Page Application where users can br
     -   [Purpose](#purpose)
     -   [Usage](#usage)
         -   [IMPORTANT](#important)
+    -   [Technologies](#technologies)
     -   [License](#license)
     -   [About](#about)
     -   [Badges](#badges)
@@ -45,6 +46,17 @@ If you wish to test the Credit Card component enter in \
 4242 4242 4242 4242 for the Card number. \
 Set the expiration date to anytime in the FUTURE. \
 The CVV and Zip Code can be any number. \
+
+## Technologies
+
+This SPA Application uses:
+
+-   Stripe for payments
+-   React for the Front End Library
+-   Netlify for deployment
+-   Google Firebase
+-   Google Login
+-   DotEnv
 
 ## License
 
