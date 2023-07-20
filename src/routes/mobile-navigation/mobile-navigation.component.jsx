@@ -20,9 +20,9 @@ const MobileNavigation = () => {
 
     return (
         <>
-            <div className='mobile-navbar-dropdown-container'>
-            <CartIcon />
-            {isCartOpen && <CartDropdown />}
+            <div className="mobile-navbar-dropdown-container">
+                <CartIcon />
+                {isCartOpen && <CartDropdown />}
             </div>
 
             <div
@@ -50,7 +50,7 @@ const MobileNavigation = () => {
                 <div className="mobile-navigation-links">
                     <ul>
                         <li>
-                            <Link to="/pages/whats-new">
+                            <Link to="/pages/shop/whats-new">
                                 WHAT'S NEW
                             </Link>
                         </li>

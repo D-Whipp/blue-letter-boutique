@@ -60,7 +60,7 @@ const Navigation = () => {
                 <div className="navigation-container">
                     <ul>
                         <li>
-                            <Link to="/pages/whats-new">
+                            <Link to="/pages/shop/whats-new">
                                 WHAT'S NEW
                             </Link>
                         </li>

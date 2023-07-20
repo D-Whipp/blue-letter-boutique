@@ -501,6 +501,74 @@ const SHOP_DATA = [
             },
         ],
     },
+    {
+        title: 'whats-new',
+        items: [
+            {
+                id: 67,
+                name: 'White Cascade',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/two-piece/flowing-white-two-piece.jpg?updatedAt=1683945102957',
+                price: 104,
+            },
+            {
+                id: 68,
+                name: 'Peaceful Skull',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shirts/peace-shirt.jpg?updatedAt=1683945234160',
+                price: 60,
+            },
+            {
+                id: 69,
+                name: 'Straight-Leg Jeans',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/pants/gray-pants.jpg?updatedAt=1683945352062',
+                price: 65,
+            },
+            {
+                id: 70,
+                name: 'Slim Leg Jeans',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/pants/black-and-white-pants.jpg?updatedAt=1683945353169',
+                price: 49,
+            },
+            {
+                id: 71,
+                name: 'Tan Boater',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/hats/straw-hat-two.jpg?updatedAt=1683944823294',
+                price: 59,
+            },
+            {
+                id: 72,
+                name: 'Tan Boots',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/shoes/boots.jpg?updatedAt=1683945452648',
+                price: 225,
+            },
+            {
+                id: 73,
+                name: 'Open Shoulder Ruby',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/dresses/red-dress.jpg?updatedAt=1683942918645',
+                price: 118,
+            },
+            {
+                id: 74,
+                name: 'USA Shirt',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/sale/usa-shirt.jpg?updatedAt=1687912780448',
+                price: 25,
+            },
+            {
+                id: 75,
+                name: 'Black Midi',
+                imageUrl:
+                    'https://ik.imagekit.io/dwimageKit/blue-letter-boutique/two-piece/black-two-piece.jpg?updatedAt=1683945097883',
+                price: 118,
+            },
+        ],
+    },
 ];
 
 export default SHOP_DATA;
