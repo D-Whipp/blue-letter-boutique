@@ -54,9 +54,11 @@ This SPA Application uses:
 -   Stripe for payments
 -   React for the Front End Library
 -   Netlify for deployment
--   Google Firebase
--   Google Login
--   DotEnv
+-   Google Firebase for database
+-   Google Login for user authentication
+-   DotEnv for environment
+-   ImageKit.io for my Content Delivery Network
+-     - This is where I store all of my images for my database (Google Firebase) to reference
 
 ## License
 
