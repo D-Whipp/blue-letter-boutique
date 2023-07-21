@@ -44,9 +44,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 415px) {
   .jumbotron-container {
-    height: 300px;
+    height: 100%;
   }
   .jumbotron-container .jumbotron-text h2 {
     color: white;
