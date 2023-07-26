@@ -5,9 +5,18 @@ import { CartContext } from '../contexts/cart.context';
 
 const ProductCard = ({ product }) => {
     const { name, price, imageUrl } = product;
-    const {addItemToCart} = useContext(CartContext)
+    const { addItemToCart } = useContext(CartContext);
 
-    const addProductToCart = () => addItemToCart(product);
+    console.log('Cart Context: ', CartContext);
+
+    const addProductToCart = () => {
+        addItemToCart(product);
+        itemAddedToCartAlert();
+    };
+
+    const itemAddedToCartAlert = () => {
+        alert('Item added to cart');
+    };
 
     return (
         <div className="product-card-container">
@@ -17,7 +26,13 @@ const ProductCard = ({ product }) => {
                     <span className="name">{name}</span>
                     <span className="price">$ {price}</span>
                 </div>
-                <button className="card-button" onClick={addProductToCart}>Add To Cart</button>
+                <button
+                    id="add-to-cart-btn"
+                    className="card-button"
+                    onClick={addProductToCart}
+                >
+                    Add To Cart
+                </button>
             </div>
         </div>
     );
