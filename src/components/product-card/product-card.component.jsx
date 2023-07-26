@@ -1,43 +1,21 @@
 import './product-card.styles.css';
 
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 import { CartContext } from '../contexts/cart.context';
 
 const ProductCard = ({ product }) => {
     const { name, price, imageUrl } = product;
     const { addItemToCart } = useContext(CartContext);
-    const [isAddingToCart, setIsAddingToCart] = useState(false);
+
+    console.log('Cart Context: ', CartContext);
 
     const addProductToCart = () => {
         addItemToCart(product);
-        disableButton();
+        itemAddedToCartAlert();
     };
 
-    const disableButton = () => {
-        const addToCartBtn =
-            document.getElementById('add-to-cart-btn');
-        addToCartBtn.classList.add('spinner-button');
-        addToCartBtn.setAttribute('disabled', true);
-        console.log('Cart Btn: ', addToCartBtn);
-
-        setDelay(5000);
-        
-    };
-
-    function setDelay(milliSeconds) {
-        milliSeconds += Date.now();
-        while(Date.now() < milliSeconds){
-            console.log(milliSeconds)
-        }
-    }
-
-    const resetBtn = () => {
-        const addToCartBtn =
-            document.getElementById('add-to-cart-btn');
-
-        addToCartBtn.classList.remove('spinner-button');
-        addToCartBtn.removeAttribute('disabled');
-        console.log('reset', addToCartBtn);
+    const itemAddedToCartAlert = () => {
+        alert('Item added to cart');
     };
 
     return (
