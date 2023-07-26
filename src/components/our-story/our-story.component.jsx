@@ -1,5 +1,3 @@
-// import {Routes, Route} from 'react-router-dom';
-
 import './our-story.styles.css';
 
 import Promotion from '../../routes/promotion/promotion.component';

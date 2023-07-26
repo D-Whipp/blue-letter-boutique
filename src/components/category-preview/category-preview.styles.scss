@@ -23,11 +23,9 @@
         
         .title {
             font-size: 33px;
-            // padding-top: 110px;
         }
         
         .preview {
-            // display: grid;
             grid-template-columns: repeat(2, 1fr);
         }
     }
@@ -36,9 +34,7 @@
 @media screen and (max-width: 450px) {
     .category-preview-container {        
         .preview {
-            // display: grid;
             grid-template-columns: repeat(1, 1fr);
-            // column-gap: 0px;
         }
     }
 }

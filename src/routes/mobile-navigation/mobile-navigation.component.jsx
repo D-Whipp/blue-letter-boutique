@@ -6,7 +6,6 @@ import { useState, useContext } from 'react';
 // CART DROPDOWN IMPORTS
 import CartIcon from '../../components/cart-icon/cart-icon.component';
 import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
-// import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component';
 import { CartContext } from '../../components/contexts/cart.context';
 
 const MobileNavigation = () => {
