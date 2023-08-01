@@ -69,6 +69,12 @@
 }
 
 // ***** RESPONSIVE STYLING *****
+@media screen and (max-width: 821px) {
+    .jumbotron-container {
+        height: 100%;
+    }
+}
+
 @media screen and (max-width: 415px) {
     .jumbotron-container {
         height: 100%;
