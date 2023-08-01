@@ -33,7 +33,7 @@
   letter-spacing: 4px;
   border-bottom: 2px solid blue;
   width: 570px;
-  margin: 150px auto 0px;
+  margin: 150px auto;
   text-shadow: -1px -1px 0 blue, 0 -1px 0 white, 1px -1px 0 blue, 1px 0 0 black, 1px 1px 0 black, 0 1px 0 black, -1px 1px 0 black, -1px 0 0 black;
   background: -webkit-linear-gradient(55deg, blue, black);
   -webkit-background-clip: text;
@@ -44,6 +44,14 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 821px) {
+  .jumbotron-container {
+    height: 100%;
+  }
+  .jumbotron-container .jumbotron-text p {
+    margin-top: 50px;
+  }
+}
 @media screen and (max-width: 415px) {
   .jumbotron-container {
     height: 100%;

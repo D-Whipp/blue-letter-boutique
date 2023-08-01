@@ -47,7 +47,7 @@
         letter-spacing: 4px;
         border-bottom: 2px solid blue;
         width: 570px;
-        margin: 150px auto 0px;
+        margin: 150px auto;
             text-shadow:
             -1px -1px 0 blue,
             0   -1px 0 white,
@@ -72,6 +72,12 @@
 @media screen and (max-width: 821px) {
     .jumbotron-container {
         height: 100%;
+
+        .jumbotron-text {
+            p {
+                margin-top: 50px;
+            }
+        }
     }
 }
 
@@ -83,6 +89,7 @@
             h2 {
                 color: white;
                 font-size: 55px;
+
             }
 
             p {
