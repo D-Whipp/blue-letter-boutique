@@ -1,10 +1,12 @@
 import './footer.styles.css';
 
 const Footer = () => {
+    const year = new Date().getFullYear();
+
     return (
         <div className="footer-container">
             <p>
-                &copy; 2021-2023 Blue Letter Boutique. All Rights
+                &copy; {year} Blue Letter Boutique. All Rights
                 Reserved
             </p>
         </div>
